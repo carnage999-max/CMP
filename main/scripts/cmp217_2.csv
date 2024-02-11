@@ -1,0 +1,204 @@
+Questions,options,answer
+1) What is the use of directory structure in the operating system?,"['', 'The directory structure is used to solve the problem of the network connection in OS.', 'It is used to store folders and files hierarchically.', 'It is used to store the program in file format.', 'All of the these', '']","
+Answer: (b) It is used to store folders and files hierarchically.
+Explanation: In the OS, a directory structure is a container that is used to store folders and files in a hierarchical manner.
+"
+2) What type of scheduling is round-robin scheduling?,"['', 'Linear data scheduling', 'Non-linear data scheduling', 'Preemptive scheduling', 'Non-preemptive scheduling', '']","
+Answer: (c) Preemptive scheduling
+Explanation: Round-robin scheduling is a preemptive scheduling algorithm in which a specific time is provided to execute each process. This specific time is called time-slice.
+"
+3) Which conditions must be satisfied to solve a critical section problem?,"['', 'Bounded Waiting', 'Progress', 'Mutual Exclusion', 'All of these.', '']","
+Answer: (d) All of the these
+Explanation: A critical-section is a code segment that can be accessed by a signal mechanism at a given point of time. The segment consists of shared data services that are need to be used by other systems. The critical section problem must satisfy the three conditions: Mutual Exclusion, Bounded Waiting, and Progress.
+"
+4) Which of the following options is correct about the windows operating system?,"['', 'Windows is a CUI operating system.', 'Windows is based on CUI.', 'Windows is a GUI operating system.', 'None of the these', '']","
+Answer: (c) Windows is a GUI operating system.
+Explanation: Windows is a GUI operating system. Windows OS does not require a command to run. Only one mouse is required to run the windows operating system.
+"
+5) Which of the following file systems is supported by the windows OS?,"['', 'NTFS', 'FAT32', 'exFAT', 'All of the these', '']","
+Answer: (d) All of the these
+Explanation: The following are the types of file systems that support the Windows operating system, such as NTFS, FAT, exFAT, HFS Plus, and EXT.
+"
+6) Which of the following keys does the user use to switch between applications running simultaneously in the Windows operating system?,"['', 'FN + TAB', 'ALT + TAB', 'CTRL + TAB', 'SHIFT + TAB', '']","
+Answer: (b) ALT + TAB
+Explanation: The user uses the Alt + Tab button to switch from one window to another in the Windows operating system. Also, the user can use the Ctrl + Tab button to switch from tab to tab in internet explorer.
+"
+7) Which of the following commands creates an emergency repair disk for Windows NT 4.0?,"['', 'BAT', 'EXE', 'EXE/S', 'ADD/REMOVE program', '']","
+Answer: (b) RDISK.EXE
+Explanation: There are the following steps to repair disk in windows NT 4.0:
+Step 1: Go to the search button in windows NT 4.0, then type Command Prompt.
+Step 2: Then type ""RDISK.EXE"" and press enter.
+Step 3: Then open a pop-up window. This pop-up window will update the emergency repair disk.
+"
+8) Which of the following scheduling algorithms is preemptive scheduling?,"['', 'FCFS Scheduling', 'SJF Scheduling', 'Network Scheduling', 'SRTF Scheduling', '']","
+Answer: (d) SRTF Scheduling
+Explanation: Shortest Remaining Time First (SRTF) scheduling is preemptive scheduling. In this scheduling, the process that has the shortest processing time left is executed first.
+"
+9) How can you get a printout of the system configuration on windows 9x OS?,"['', 'Open the CMD window, type ""MSDN"", and press <printscrn>', 'From the device manager, click the print button', 'Open the CMD window, type ""SYS"", and press <printscrn>', 'None of the these', '']","
+Answer: (c) From the device manager, click the print button
+Explanation: Windows 9x is a generic term that refers to a series of Microsoft windows OS from 1995 to 2000. If you want to print out in Windows 9x, go to the device manager and click the printer option and then print the page.
+"
+10) Which of the following operating system runs on the server?,"['', 'Batch OS', 'Distributed OS', 'Real-time OS', 'Network OS', '']","
+Answer: (d) Network OS
+Explanation: The network operating system runs on a server. This operating system has some functions that work to connect local area networks and computers.
+"
+11) What type of memory stores data in a swap file on a hard drive?,"['', 'Secondary memory', 'Virtual memory', 'Low memory', 'RAM', '']","
+Answer: (b) Virtual memory
+Explanation: A swap file is a type of file that stores the data retrieved from Read-Only-Memory (RAM) or main memory. It is also a virtual memory because it is not stored in physical RAM.
+"
+"12) Which of the following ""semaphore"" can take the non-negative integer values?","['', 'Binary Semaphore', 'Counting Semaphore', 'Real Semaphore', 'All of the these', '']","
+Answer: (b) Counting Semaphore
+Explanation: Counting semaphore takes only the non-negative integer value that is used to solve the critical section problem and process synchronization.
+"
+13) In which directory the local user profile settings are stored by default in windows 2000?,"['', 'C: \\ USERS', 'C: \\ NETLOGON', 'C: \\ WIN NTUSER.DAT', 'C: \\ Documents and settings', '']","
+Answer: (d) C: \ Documents and settings
+Explanation: When a user logs in with an account for the first time, Windows 2000 automatically creates a user's profile in the ""Documents and Settings"" folder.
+"
+14) Which of the following operating system does not require a command to run?,"['', 'Kali Linux', 'Windows', 'Unix', 'All of the these', '']","
+Answer: (b) Windows
+Explanation: Windows is a GUI operating system. This operating system does not require a command to run. Only one mouse is required to run this operating system.
+"
+15) Which method is the best among file allocation methods?,"['', 'Linked', 'Contiguous', 'Indexed', 'None of the these', '']","
+Answer: (c) Indexed
+Explanation: The indexed allocation method is the best file allocation method because it removes the problem of contiguous and linked allocation.
+"
+16) The operating system work between,"['', 'User and Computer', 'Network and User ', 'One user to another user', 'All of the these', '']","
+Answer: (a) User and Computer
+Explanation: The OS is software that acts as an interface between a device and users and is also known as system software.
+"
+17) What is the paging in the operating system?,"['', 'Memory management scheme', 'Network management scheme', 'Internet management scheme', 'None of the these', '']","
+Answer: (a) Memory management scheme
+Explanation: In the operating system, paging is a memory management scheme (MMS) in which memory is divided into pages of fixed size.
+"
+18) Which of the following programs is loaded first when starting a computer?,"['', 'Window desktop', 'Network connection program', 'Operating system', 'CMD', '']","
+Answer: (c) Operating system
+Explanation: When the computer is powered on, the first operating system program is loaded into the computer. The OS's job is to control the computer's hardware and help other computer programs work.
+"
+19) Which of the following backup methods is quickest and requires the least amount of backup space?,"['', 'Complete backups', 'Incremental', 'Differential', 'None of the these', '']","
+Answer: (b) Incremental
+Explanation: Incremental backups take less time and space than differential and complete backups.
+"
+20) Which of the following is not a type of directory structure?,"['', 'Acyclic-graph directory structure', 'Single-level directory structure', 'Tree directory structure', 'Stack directory structure', '']","
+Answer: (d) Stack directory structure
+Explanation: Acyclic-graph, Single-level, and Tree directory structures are a type of directory structure in the operating system. But the stack is a linear data structure, so option (d) is correct answer.
+"
+21) Which of the following scheduling algorithm is non-preemptive scheduling?,"['', 'SJF scheduling', 'Round-Robin scheduling', 'SRTF scheduling', 'None of these.', '']","
+Answer: (a) SJF scheduling
+Explanation: Shortest job first scheduling is non-preemptive scheduling. In this scheduling algorithm, the process which takes the least time to complete executes that process first.
+"
+22) Which of the following scheduling reduces process flow time?,"['', 'FCFS', 'LIFO', 'SJF', 'All of the these', '']","
+Answer: (b) SJF
+Explanation: Shortest job first scheduling is non-preemptive scheduling. In this scheduling algorithm, the process which takes the least time to complete executes that process first.
+"
+23) Consider the following three processes in the FCFS.,"['', '2', '3', '4', '5', '']","
+Answer: (b) 3
+Explanation:
+TA Time = CT - AT
+Waiting Time = TA - BT
+
+
+Process ID. Brust-time.
+Arrival-time
+Completion-Time (CT)
+Turnaround-Time (TA)
+Waiting-Time (WT)
+
+
+P1
+3
+3
+3
+3
+0
+
+
+P2
+6
+6
+9
+8
+2
+
+
+P3
+9
+9
+18
+16
+7
+
+
+Average waiting time = (0 + 2 + 7) / 3 = 3
+"
+24) How many types of buffer overflow in the operating system?,"['', 'Two', 'Six', 'Seven', 'Five', '']","
+Answer: (a) Two
+Explanation: There are two types of buffer-overflows: heap-based and stack-based.
+"
+25) In which allocation method does the user size the file before creating the file?,"['', 'Contiguous', 'Linked', 'Indexed', 'None of the these', '']","
+Answer: (a) Contiguous
+Explanation: In the contiguous allocation method, the user has to give the size of the file before creating the file so that the operating system can give contiguous blocks in the disk-based on the size of that file.
+"
+26) Which of the following algorithms is used to avoid deadlock?,"['', 'Dynamic Programming algorithm', 'Primality algorithms', ""Banker's algorithm"", 'Deadlock algorithm', '']","
+Answer: (c) Banker's algorithm
+Explanation: Banker's algorithm is a deadlock avoidance and resource allocation algorithm. This algorithm was developed by Edger Dijkstra. It is also called a detection algorithm.
+"
+27) Which of the following component does not belong to PCB (Process Control Block)?,"['', 'CPU registers', 'CPU scheduling information', 'Operating System information', 'Accounting information', '']","
+Answer: (c) Operating System information
+Explanation: The operating system information is not the component of the PCB, so option (d) is the correct answer.
+"
+28) Which of the following method is used to improve the main memory utilization?,"['', 'Swapping', 'Operating system', 'Memory stack', 'None of these.', '']","
+Answer: (a) Swapping
+Explanation: Swapping is a technique in which the process is removed from the main memory and stored in secondary memory. It is used to improve the main memory utilization.
+"
+29) Buffer is a ___________.,"['', 'Permanent area', 'Temporary area', 'Small area', 'Large area', '']","
+Answer: (b) Temporary area
+Explanation: Buffer is a temporary area where data is stored for some time before being transferred to the main memory.
+"
+30) Which of the following operating systems supports only real-time applications?,"['', 'Batch OS', 'Distributed OS', 'Real-time OS', 'Network OS', '']","
+Answer: (c) Real-time OS
+Explanation: The real-time OS supports real-time applications. This OS is used for industrial and scientific work. It completes the tasks in a given time.
+"
+31) Which of the following binary formats support the Linux operating system?,"['', '0 and 1', 'Binary Number Format', 'ELF Binary Format', 'None of the these', '']","
+Answer: (c) ELF Binary Format
+Explanation: ELF stands for ""Executable-and-Linkable-Format"". The ELF format is used for libraries and executable files in Linux operating systems. 
+"
+32) What is Kali Linux?,"['', 'Network device', 'Operating system', 'Server name', 'Computer name', '']","
+Answer: (b) Operating system
+Explanation: Kali Linux is an operating system similar to Windows, Unix, and macOS. Kali operating system was designed for reverse engineering, security, computer forensics, etc.
+"
+33) Which of the following statement is correct about fragmentation?,"['', 'It is software that connects the OS.', 'It is part of the software.', 'Loss the memory', 'All of the these', '']","
+Answer: (c) Loss the memory
+Explanation: A fragmentation is a state of a hard disk in which the most important parts of a single file are stored at different places in the disk. Due to which there is a loss of memory, and the working efficiency of the operating system is also affected.
+"
+34) SSTF stands for ________.,"['', 'Shortest Signal Time First', 'Shortest Seek Time First', 'System Seek Time First', 'System Shortest Time First', '']","
+Answer: (b) Shortest Seek Time First
+Explanation: SSTF stands for Shortest-Seek-Time-First. In the SSTF algorithm, that request is executed first, whose seek time is the shortest.
+"
+35) The PCB is identified by ___________.,"['', 'Real-Number', 'Binary Number', 'Store block', 'Integer Process ID', '']","
+Answer: (d) Integer Process ID
+Explanation: PCB is a data structure that is used to store the information of processes. It is identified by an integer process ID (PID).
+"
+36) Which of the following method is used to prevent threads or processes from accessing a single resource?,"['', 'PCB', 'Semaphore', 'Job Scheduler', 'Non-Contiguous Memory Allocation', '']","
+Answer: (b) Semaphore
+Explanation: Semaphore is an integer variable that is used to prevent threads or processes from accessing a single resource.
+"
+37) Which of the following mechanisms is a locking mechanism?,"['', 'Semaphore', 'PCB', 'Mutex', 'Binary Semaphore', '']","
+Answer: (c) Mutex
+Explanation: The mutex is a locking mechanism that ensures that only one thread can occupy the mutex at a time and enter the critical section.
+"
+38) Which of the following statements is correct about virtual memory?,"['', 'It is a combination of the logical-memory and physical-memory', 'It is a separation of user logical memory and physical memory', 'It is a virtual network memory', 'None of the these', '']","
+Answer: (b) It is a separation of user logical memory and physical memory
+Explanation: Virtual memory is used to separate the user's logical memory and actual physical memory. Therefore, option (b) is the correct answer.
+"
+39) COW stands for __________,"['', 'Compress of write memory', 'Copy overwrite', 'Compress overwrites', 'Computer of world', '']","
+Answer: (b) Copy overwrite
+Explanation: COW stands for Copy-Overwrite. Initially, it allows both the parent and child systems to share the same page.
+"
+40) Who is responsible for keeping the process from the program?,"['', 'Operating system', 'CPU', 'Monitor', 'All of the these', '']","
+Answer: (a) Operating system
+Explanation: A process is created from a program by the operating system. The OS is software that acts as an interface between a device and users and is also known as system software.
+"
+41) Which of the following operating systems require a command to run?,"['', 'Kali Linux', 'Windows', 'Mac OS', 'Single-user operating system', '']","
+Answer: (a) Kali Linux
+Explanation: Kali Linux is a fast operating system as more work is done through the command line in it. This OS is a Debian-based Linux OS.
+"

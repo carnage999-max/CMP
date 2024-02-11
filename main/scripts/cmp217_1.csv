@@ -1,0 +1,162 @@
+Questions,options,answer
+1) Which of the following is not an operating system?,"['', 'Windows', 'Linux', 'Oracle', 'DOS', '']","
+Answer: (c) Oracle
+Explanation: Oracle is an RDBMS (Relational Database Management System). It is known as Oracle Database, Oracle DB, or Oracle Only. The first database for enterprise grid computing is the Oracle database.
+"
+2) What is the maximum length of the filename in DOS?,"['', '4', '5', '8', '12', '']","
+Answer: (c) 8
+Explanation: The maximum length of the filename is 8 characters in the DOS operating system. It is commonly known as an 8.3 filename.
+"
+3) When was the first operating system developed?,"['', '1948', '1949', '1950', '1951', '']","
+Answer: (c) 1950
+Explanation: The first operating system was developed in the early 1950's. It was also called a single-stream batch processing system because it presented data in groups.
+"
+4) When were MS windows operating systems proposed?,"['', '1994', '1990', '1992', '1985', '']","
+Answer: (d) 1985
+Explanation: The first MS Windows operating system was introduced in early 1985.
+"
+5) Which of the following is the extension of Notepad?,"['', '.txt', '.xls', '.ppt', '.bmp', '']","
+Answer: (a) .txt
+Explanation: The .txt file extension is a standard text document extension that contains the unformatted text. It is the default file extension for the notepad.
+"
+6) What else is a command interpreter called?,"['', 'prompt', 'kernel', 'shell', 'command', '']","
+Answer: (c) shell
+Explanation: The command interpreter is also called the shell. 
+"
+7) What is the full name of FAT?,"['', 'File attribute table', 'File allocation table', 'Font attribute table', 'Format allocation table', '']","
+Answer: (b) File allocation table.
+Explanation: The FAT stands for File allocation table. The FAT is a file system architecture. It is used in computer systems and memory cards. A FAT of the contents of a computer disk indicates which field is used for which file.
+"
+8) BIOS is used?,"['', 'By operating system', 'By compiler', 'By interpreter', 'By application software', '']","
+Answer: (a) By operating system
+Explanation: BIOS is used by the operating system. It is used to configure and identify the hardware in a system such as the hard drive, floppy drive, optical drive, CPU, and memory.
+"
+9) What is the mean of the Booting in the operating system?,"['', 'Restarting computer', 'Install the program', 'To scan', 'To turn off', '']","
+Answer: (a) Restarting computer
+Explanation: Booting is a process of the restart the computer. After restarting it, there is no software in the computer's main memory.
+"
+10) When does page fault occur?,"['', 'The page is present in memory.', 'The deadlock occurs.', 'The page does not present in memory.', 'The buffering occurs.', '']","
+Answer: (c) The page does not present in memory.
+Explanation: Page faults occur when a process tries to access a block page of the memory and that page is not stored in RAM (Read only memory) or memory.
+"
+11) Banker's algorithm is used?,"['', 'To prevent deadlock', 'To deadlock recovery', 'To solve the deadlock', 'None of these', '']","
+Answer: (a) To prevent deadlock
+Explanation: Banker's algorithm is used to prevent the deadlock condition. The banker algorithm is sometimes called the detection algorithm. It is named the banker algorithm because it is used to determine whether a loan can be granted in the banking system or not.
+"
+"12) When you delete a file in your computer, where does it go?","['', 'Recycle bin', 'Hard disk', 'Taskbar', 'None of these', '']","
+Answer: (a) Recycle bin
+Explanation: When you delete a file on your computer device, it is transferred to your computer system's recycle bin or trash.
+"
+13) Which is the Linux operating system?,"['', 'Private operating system', 'Windows operating system', 'Open-source operating system', 'None of these', '']","
+Answer: (c) Open-source operating system
+Explanation: The Linux operating system is an open-source operating system made up of a kernel. It is a very safe operating system.
+"
+14) What is the full name of the DSM?,"['', 'Direct system module', 'Direct system memory', 'Demoralized system memory', 'Distributed shared memory', '']","
+Answer: (d) Distributed shared memory
+Explanation: The DSM stands for Distributed Shared Memory. 
+"
+15) What is the full name of the IDL?,"['', 'Interface definition language', 'Interface direct language', 'Interface data library', 'None of these', '']","
+Answer: (a) Interface definition language
+Explanation: The IDL stands for Interface Definition Language. It is used to establish communications between clients and servers in RPC (Remote Procedure Call).
+"
+16) What is bootstrapping called?,"['', 'Cold boot', 'Cold hot boot', 'Cold hot strap', 'Hot boot', '']","
+Answer: (a) Cold boot
+Explanation: Bootstrapping is also known as the cool boot.
+"
+17) What is the fence register used for?,"['', 'To disk protection', 'To CPU protection', 'To memory protection', 'None of these', '']","
+Answer: (c) To memory protection
+Explanation: The fence register is used for memory protection on the computer. It is a way to access the memory in the computer.
+"
+"18) If the page size increases, the internal fragmentation is also?..?","['', 'Decreases', 'Increases', 'Remains constant', 'None of these', '']","
+Answer: (b) Increases
+Explanation: None
+"
+19) Which of the following is a single-user operating system?,"['', 'Windows', 'MAC', 'Ms-Dos', 'None of these', '']","
+Answer: (c) Ms-Dos
+Explanation: The single-user operating system is the operating system in which only one user can access the computer system at a time, and Ms-DOS is the best example of a single-user operating system.
+"
+20) The size of virtual memory is based on which of the following?,"['', 'CPU', 'RAM', 'Address bus', 'Data bus', '']","
+Answer: (c) Address bus
+Explanation: The size of virtual memory is based on the address bus.
+"
+"21) If a page number is not found in the translation lookaside buffer, then it is known as a?","['', 'Translation Lookaside Buffer miss', 'Buffer miss', 'Translation Lookaside Buffer hit', 'All of the mentioned', '']","
+Answer: (a) Translation Lookaside Buffer miss
+Explanation: A Translation Lookaside Buffer miss arises when the page table entry needed to translate a virtual address to a physical address is not available in the translation lookaside buffer.
+"
+22) Which of the following is not application software?,"['', 'Windows 7', 'WordPad', 'Photoshop', 'MS-excel', '']","
+Answer: (a) Windows 7
+Explanation: Windows 7 is not an application software because it is a operating system.
+"
+23) Which of the following supports Windows 64 bit?,"['', 'Window XP', 'Window 2000', 'Window 1998', 'None of these', '']","
+Answer: (a) Window XP
+Explanation: Windows XP supports the 64-bits. Windows XP is designed to expand the memory address space. Its original name is Microsoft Windows XP Professional x64 and it is based on the x86-64 architecture.
+"
+24) Which of the following windows does not have a start button?,"['', 'Windows 7', 'Windows 8', 'Windows XP', 'None of these', '']","
+Answer: (b) Windows 8
+Explanation: Windows 8 does not have a start button because it uses the tablet mode, but windows 8.1 has a start button.
+"
+25) Which of the following operating systems does not support more than one program at a time?,"['', 'Linux', 'Windows', 'MAC', 'DOS', '']","
+Answer: (d) DOS
+Explanation: DOS stands for Disk operating system. Disk operating system is a single-user operating system that does not support more than one program at a time.
+"
+26) Which of the following is a condition that causes deadlock?,"['', 'Mutual exclusion', 'Hold and wait', 'Circular wait', 'No preemption', 'All of these', '']","
+Answer: (e) All of these
+Explanation: None
+"
+27) Who provides the interface to access the services of the operating system?,"['', 'API', 'System call', 'Library', 'Assembly instruction', '']","
+Answer: (b) System call
+Explanation: The system call provides an interface for user programs to access the services of the operating system through the API (Application Program Interface).
+"
+28) Where are placed the list of processes that are prepared to be executed and waiting?,"['', 'Job queue', 'Ready queue', 'Execution queue', 'Process queue', '']","
+Answer: (b) Ready queue
+Explanation: The ready queue is a set of all the processes that processes are ready to execute and wait.
+"
+29) Who among the following can block the running process?,"['', 'Fork', 'Read', 'Down', 'All of these', '']","
+Answer: (d) All of these
+Explanation: None
+"
+30) Which of the following does not interrupt the running process?,"['', 'Timer interrupt', 'Device', 'Power failure', 'Scheduler process', '']","
+Answer: (b) Scheduler process
+Explanation: Scheduler process does not interrupt in any running process. Its job is to select the processes for long-term, short-term, and short-term scheduler.
+"
+31) What is Microsoft window?,"['', 'Operating system', 'Graphics program', 'Word Processing', 'Database program', '']","
+Answer: (a) Operating system
+Explanation: Microsoft Windows is an operating system that was developed by Microsoft company. The Microsoft Windows is available in 32-bits and 64-bits in the market. 
+"
+32) Which of the following is group of programs?,"['', 'Accessories', 'Paint', 'Word', 'All of above', '']","
+Answer: (a) Accessories
+Explanation: The windows accessories are a group of programs in the operating system. Windows XP offers many accessories or software that you can use to help with your work. The accessories are not full features programs, but it is useful for a specific task in the operating systems. It provides many programs such as a painting program, a calculator, a word processor, a notepad, and Internet software.
+"
+33) Which of the following is an example of a Real Time Operating System?,"['', 'MAC', 'MS-DOS', 'Windows 10', 'Process Control', '']","
+Answer: (d) Process Control
+Explanation: Process control is a best example of a Real time operating system. 
+"
+34) Which of the following operating systems do you use for a client-server network?,"['', 'MAC', 'Linux', 'Windows XP', 'Windows 2000', '']","
+Answer: (d) Windows 2000
+Explanation: Windows 2002 operating systems were used to implement a client Server Network. It is a server OS that was developed by Microsoft in April 24, 2002. It includes some features of Windows XP.
+"
+35) Which windows was introduced to My Computer?,"['', 'Windows 10', 'Windows XP', 'Windows 95', 'Windows 98', '']","
+Answer: (c) Windows 95
+Explanation: Windows 95 was first window to introduced the My Computer.
+"
+36) What type of commands are required to perform various tasks in DOS?,"['', 'Internal commands', 'External commands', 'Valuable commands', 'Primary commands', '']","
+Answer: (b) External commands
+Explanation: External commands are required to perform various tasks in DOS.
+"
+37) What is the number of characters contained in the primary name of the file of MS-DOS?,"['', 'Up to 8 characters', '3 characters', 'Up to 10 characters', 'None of the above', '']","
+Answer: (a) Up to 8 characters
+Explanation: MS-DOS operating system uses the file system that supports the 8.3 characters. The eight characters are used to the filename, and three characters are used to the extension.
+"
+38) Which command is used to fetch a group (.doc) of files that have just been deleted?,"['', 'Undelete', 'Undelete/all', 'Undelete *.doc', 'All of above', '']","
+Answer: (c) Undelete *.doc
+Explanation: Undelete *.doc command is used to fetch a group (.doc) of files that have just been deleted.
+"
+39) Which of the following is system software?,"['', 'Operating system', 'Compiler', 'Utilities', 'All of the above', '']","
+Answer: (d) All of the above
+Explanation: The system software is a type of computer program designed to run hardware and software programs on a computer.
+According to some definitions, system software also includes system utilities, system restore, development tools, compilers, and debuggers.
+"
+40) Which program runs first after booting the computer and loading the GUI?,"['', 'Desktop Manager', 'File Manager', 'Windows Explorer', 'Authentication', '']","
+Answer: (d) Authentication
+Explanation: The authentication program is run first after booting the computer and loading the GUI. Authentication is a process of verifying the person or device. For example, when you log in to Facebook, you enter a username and password.
+"

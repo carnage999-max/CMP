@@ -1,0 +1,556 @@
+Questions,options,answer
+"
+                            The normal form which satisfies multivalued dependencies and which is in BCNF is
+                        ","['A.4 NF', 'B. 3 NF', 'C. 2 NF', 'D. All of the mentioned']","
+                    Answer»
+                    A. 4 NF
+                "
+"
+                            Which of the following is a tuple-generating dependencies?
+                        ","['A.Functional dependency', 'B. Equality-generating dependencies', 'C. Multivalued dependencies', 'D. Non-functional dependency']","
+                    Answer»
+                    B. Equality-generating dependencies
+                "
+"
+                            The main task carried out in the __________ is to remove repeating attributes to
+separate tables.
+                        ","['A.First Normal Form', 'B. Second Normal Form', 'C. Third Normal Form', 'D. Fourth Normal Form']","
+                    Answer»
+                    A. First Normal Form
+                "
+"
+                            Which forms has a relation that possesses data about an individual entity?
+                        ","['A.2NF', 'B. 3NF', 'C. 4NF', 'D. 5NF']","
+                    Answer»
+                    B. 3NF
+                "
+"
+                            Which of the following has each related entity set has its own schema and there is an
+additional schema for the relationship set?
+                        ","['A.A many-to-many relationship set', 'B. A multivalued attribute of an entity set', 'C. A one-to-many relationship set', 'D. None of the mentioned']","
+                    Answer»
+                    A. A many-to-many relationship set
+                "
+"
+                            Fifth Normal form is concerned with
+                        ","['A.Functional dependency', 'B. Multivalued dependency', 'C. Join dependency', 'D. Domain-key']","
+                    Answer»
+                    B. Multivalued dependency
+                "
+"
+                            n which of the following, a separate schema is created consisting of that attribute and
+the primary key of the entity set.
+                        ","['A.A many-to-many relationship set', 'B. A multivalued attribute of an entity set', 'C. A one-to-many relationship set', 'D. None of the mentioned']","
+                    Answer»
+                    B. A multivalued attribute of an entity set
+                "
+"
+                            In 2NF
+                        ","['A.No functional dependencies (FDs) exist', 'B. No multivalued dependencies (MVDs) exist', 'C. No partial FDs exist', 'D. No partial MVDs exist']","
+                    Answer»
+                    B. No multivalued dependencies (MVDs) exist
+                "
+"
+                            Where is metadata stored in MySQL?
+                        ","['A.in the mysql database meta', 'B. in the mysql database metasql', 'C. in the mysql database metadata', 'D. in the mysql database mysql']","
+                    Answer»
+                    D. in the mysql database mysql
+                "
+"
+                            What MySQL property is used to create a surrogate key in MySQL?
+                        ","['A.identical', 'B. unique', 'C. auto_increment', 'D. sequence']","
+                    Answer»
+                    C. auto_increment
+                "
+"
+                            A relational database consists of a collection of
+                        ","['A.keys', 'B. records', 'C. tables', 'D. fields']","
+                    Answer»
+                    C. tables
+                "
+"
+                            A Database Management System (DBMS) is:
+                        ","['A.collection of data describing one particular enterprise', 'B. collection of programs to access data', 'C. all options are correct', 'D. collection of interrelated data']","
+                    Answer»
+                    C. all options are correct
+                "
+"
+                            Which of the following is not a level of data abstraction?
+                        ","['A.view level', 'B. physical level', 'C. logical level', 'D. critical level']","
+                    Answer»
+                    D. critical level
+                "
+"
+                            Disadvantages of File systems to store data is:
+                        ","['A.data isolation', 'B. data redundancy and inconsistency', 'C. difficulty in accessing data', 'D. all options are correct']","
+                    Answer»
+                    D. all options are correct
+                "
+"
+                            In an Entity Relationship Diagram Rectangles represents
+                        ","['A.tables', 'B. attributes', 'C. database', 'D. entity sets']","
+                    Answer»
+                    D. entity sets
+                "
+"
+                            Which of the following is not a Storage Manager Component?
+                        ","['A.transaction manager', 'B. logical manager', 'C. file manager', 'D. buffer manager']","
+                    Answer»
+                    B. logical manager
+                "
+"
+                            Data Manipulation Language enables users to
+                        ","['A.retrieval of information stored in database', 'B. insertion of new information into the database', 'C. deletion of information from the database', 'D. all the options are correct']","
+                    Answer»
+                    D. all the options are correct
+                "
+"
+                            Which of the following is not an Schema?
+                        ","['A.logical schema', 'B. physical schema', 'C. database schema', 'D. critical schema']","
+                    Answer»
+                    D. critical schema
+                "
+"
+                            Which of the following is Database Language?
+                        ","['A.data definition language', 'B. data manipulation language', 'C. data query language', 'D. all of the options']","
+                    Answer»
+                    D. all of the options
+                "
+"
+                            Which of the following in not a function of DBA?
+                        ","['A.network maintenance', 'B. schema definition', 'C. authorization for data access', 'D. routine maintenance']","
+                    Answer»
+                    A. network maintenance
+                "
+"
+                            Which of the following is a Data Model?
+                        ","['A.entity relationship model', 'B. object based data model', 'C. all of the options are correct', 'D. relational data model']","
+                    Answer»
+                    C. all of the options are correct
+                "
+"
+                            A Database Management System (DBMS) is
+                        ","['A.collection of interrelated data', 'B. collection of data describing one particular enterprise', 'C. all of the options', 'D. collection of programs to access data']","
+                    Answer»
+                    C. all of the options
+                "
+"
+                            Column header is refer as
+                        ","['A.physical level', 'B. view level', 'C. critical level', 'D. logical level']","
+                    Answer»
+                    C. critical level
+                "
+"
+                            _______ allow us to identify uniquely a tuple in the relation.
+                        ","['A.data redundancy and inconsistency', 'B. data isolation', 'C. all of the options', 'D. difficulty in accessing data']","
+                    Answer»
+                    C. all of the options
+                "
+"
+                            Minimal Superkeys are called
+                        ","['A.transaction manager', 'B. buffer manager', 'C. file manager', 'D. logical manager']","
+                    Answer»
+                    D. logical manager
+                "
+"
+                            Which of the following is not Modification of the Database
+                        ","['A.retrieval of information stored in database', 'B. deletion of information from the database', 'C. all of the above', 'D. insertion of new information into the database']","
+                    Answer»
+                    C. all of the above
+                "
+"
+                            Which of the following in not Outer join?
+                        ","['A.logical schema', 'B. critical schema', 'C. database schema', 'D. physical schema']","
+                    Answer»
+                    B. critical schema
+                "
+"
+                            Set of premitted values of each attribute is called
+                        ","['A.all of the options', 'B. query language', 'C. data definition language', 'D. data manipulation language']","
+                    Answer»
+                    A. all of the options
+                "
+"
+                            Which of the following is true regarding Null Value?
+                        ","['A.authorization for data access', 'B. network maintenance', 'C. routine maintenance', 'D. schema definition']","
+                    Answer»
+                    B. network maintenance
+                "
+"
+                            Logical design of database is called
+                        ","['A.object-based data model', 'B. all of the options', 'C. entity-relationship model', 'D. relational data model']","
+                    Answer»
+                    B. all of the options
+                "
+"
+                            Snapshot of the data in the database at a given instant of time is called
+                        ","['A.table', 'B. domain', 'C. attributes', 'D. relation']","
+                    Answer»
+                    C. attributes
+                "
+"
+                            Which of the following is not Unary operation?
+                        ","['A.schema', 'B. superkey', 'C. domain', 'D. attribute']","
+                    Answer»
+                    B. superkey
+                "
+"
+                            Which of the following is not binary operation?
+                        ","['A.schema keys', 'B. attribute keys', 'C. candidate keys', 'D. domain keys']","
+                    Answer»
+                    C. candidate keys
+                "
+"
+                            Which of the following is correct regarding Aggregate functions?
+                        ","['A.updating', 'B. sorting', 'C. deletion', 'D. insertion']","
+                    Answer»
+                    B. sorting
+                "
+"
+                            The Primary key must be
+                        ","['A.left outer join', 'B. full outer join', 'C. all of the options', 'D. right outer join']","
+                    Answer»
+                    C. all of the options
+                "
+"
+                            A command to remove a relation from an SQL database
+                        ","['A.tuple', 'B. schema', 'C. domain', 'D. relation']","
+                    Answer»
+                    C. domain
+                "
+"
+                            which of the following is not an Aggregate function?
+                        ","['A.null<0', 'B. null=0', 'C. null<>0', 'D. null>0']","
+                    Answer»
+                    C. null<>0
+                "
+"
+                            The attribute that can be divided into other attributes is called
+                        ","['A.all of the options', 'B. database schema', 'C. database instance', 'D. database snapshot']","
+                    Answer»
+                    B. database schema
+                "
+"
+                            What is ACID properties of Transactions?
+                        ","['A.database instance', 'B. all of the options', 'C. database schema', 'D. database snapshot']","
+                    Answer»
+                    A. database instance
+                "
+"
+                            If every non-key attribute is functionally dependent on the primary key, the relation will be in
+                        ","['A.rename', 'B. union', 'C. select', 'D. project']","
+                    Answer»
+                    B. union
+                "
+"
+                            Database locking concept is used to solve the problem of
+                        ","['A.union', 'B. set difference', 'C. cartesian product', 'D. project']","
+                    Answer»
+                    D. project
+                "
+"
+                            UML is stands for
+                        ","['A.it takes a single value and returns a single value as result', 'B. it takes a list of values and return a single values as result', 'C. it takes a list of values and return a list of values as result', 'D. it takes a single value and returns a list of values as result']","
+                    Answer»
+                    B. it takes a list of values and return a single values as result
+                "
+"
+                            Data Manipulation Language (DML) is not to
+                        ","['A.non null', 'B. unique', 'C. option a or b', 'D. option a and b']","
+                    Answer»
+                    D. option a and b
+                "
+"
+                            Which of the following in true regarding Referential Integrity?
+                        ","['A.delete table', 'B. erase table', 'C. alter table', 'D. drop table']","
+                    Answer»
+                    D. drop table
+                "
+"
+                            Which of the following option is use to retrieval of data?
+                        ","['A.select', 'B. avg', 'C. min', 'D. max']","
+                    Answer»
+                    A. select
+                "
+"
+                            ODBC stands for ______
+                        ","['A.composite attribute', 'B. derived attribute', 'C. simple attribute', 'D. multi-valued attribute']","
+                    Answer»
+                    A. composite attribute
+                "
+"
+                            Which of the following is an unary operation?
+                        ","['A.atomicity, consistency, isolation, database', 'B. automatically, concurrency, isolation, durability', 'C. atomicity, consistency, isolation, durability', 'D. atomicity, consistency, inconsistent, durability']","
+                    Answer»
+                    C. atomicity, consistency, isolation, durability
+                "
+"
+                            Which SQL Query is use to remove a table and all its data from the database?
+                        ","['A.fourth formal form', 'B. third normal form', 'C. first normal form', 'D. second normal form']","
+                    Answer»
+                    B. third normal form
+                "
+"
+                            In precedence of set operators the expression is evaluated from:
+                        ","['A.inconsistent data', 'B. all of the options', 'C. lost update', 'D. uncommitted dependency']","
+                    Answer»
+                    B. all of the options
+                "
+"
+                            In DBMS, FD stands for _______
+                        ","['A.universal modeling language', 'B. united modeling language', 'C. uni modeling language', 'D. unified modeling language']","
+                    Answer»
+                    D. unified modeling language
+                "
+"
+                            How many types of keys in Database Design?
+                        ","['A.insertion of new information into the database', 'B. modification of information in the database', 'C. create information table in the database', 'D. deletion of information in the database']","
+                    Answer»
+                    C. create information table in the database
+                "
+"
+                            Which of the following is based on Multi Valued Dependency?
+                        ","['A.every primary-key value must match a primary-key value in an associated table', 'B. every primary-key value must match a foreign-key value in an associated table', 'C. every foreign-key value must match a foreign-key value in an associated table', 'D. every foreign-key value must match a primary-key value in an associated table']","
+                    Answer»
+                    D. every foreign-key value must match a primary-key value in an associated table
+                "
+"
+                            Which of the following is the structure of the Database?
+                        ","['A.stack', 'B. data structure', 'C. linked list', 'D. query']","
+                    Answer»
+                    D. query
+                "
+"
+                            The minimal set of super key is called
+                        ","['A.none of above', 'B. open database connection', 'C. offline database connection', 'D. oriented database connection']","
+                    Answer»
+                    B. open database connection
+                "
+"
+                            ______________ is a classical approach to database design?
+                        ","['A.selection operation', 'B. primitive operation', 'C. projection operation', 'D. generalized selection']","
+                    Answer»
+                    D. generalized selection
+                "
+"
+                            _____________ refers to the correctness and completeness of the data in a database?
+                        ","['A.none of these', 'B. drop table', 'C. create table', 'D. alter table']","
+                    Answer»
+                    B. drop table
+                "
+"
+                            A table that displays data redundancies yields ____________ anomalies
+                        ","['A.left to right', 'B. right to left', 'C. left to left', 'D. right to right']","
+                    Answer»
+                    A. left to right
+                "
+"
+                            A lock that allows concurrent transactions to access different rows of the same table is known as a
+                        ","['A.facilitate data', 'B. functional data', 'C. facilitate dependency', 'D. functional dependency']","
+                    Answer»
+                    D. functional dependency
+                "
+"
+                            A type of query that is placed within a WHERE or HAVING clause of another query is called
+                        ","['A.foreign key', 'B. all of the options', 'C. candidate key', 'D. primary key']","
+                    Answer»
+                    B. all of the options
+                "
+"
+                            A form defined
+                        ","['A.third', 'B. fourth', 'C. first', 'D. second']","
+                    Answer»
+                    B. fourth
+                "
+"
+                            If a piece of data is stored in two places in the database, then
+                        ","['A.table', 'B. none of these', 'C. schema', 'D. relation']","
+                    Answer»
+                    C. schema
+                "
+"
+                            Which of the following is a problem of file management system?
+                        ","['A.primary key', 'B. secondary key', 'C. foreign key', 'D. candidate key']","
+                    Answer»
+                    D. candidate key
+                "
+"
+                            Which of the following is not an advantage of the database approach
+                        ","['A.bottom – up approach', 'B. top – down approach', 'C. left – right approach', 'D. right – left approach']","
+                    Answer»
+                    B. top – down approach
+                "
+"
+                            An audit trail
+                        ","['A.data independence', 'B. data integrity', 'C. data security', 'D. data constraint']","
+                    Answer»
+                    B. data integrity
+                "
+"
+                            One approach to standardization storing of data?
+                        ","['A.insertion', 'B. deletion', 'C. update', 'D. all of the options']","
+                    Answer»
+                    D. all of the options
+                "
+"
+                            Report generators are used to
+                        ","['A.row-level lock', 'B. database-level lock', 'C. field-level lock', 'D. table-level lock']","
+                    Answer»
+                    C. field-level lock
+                "
+"
+                            Which of the following is true of a network structure?
+                        ","['A.multi-query', 'B. sub query', 'C. super query', 'D. master query']","
+                    Answer»
+                    B. sub query
+                "
+"
+                            A record management system
+                        ","['A.none of the options', 'B. where data is placed on the screen', 'C. the width of each field', 'D. both where data is placed on the screen and the width of each field']","
+                    Answer»
+                    B. where data is placed on the screen
+                "
+"
+                            One data dictionery software package is called
+                        ","['A.in can be more easily accessed', 'B. both storage space is wasted and changing the data in one spot will cause data inconsistency', 'C. storage space is wasted', 'D. changing the data in one spot will cause data inconsistency']","
+                    Answer»
+                    B. both storage space is wasted and changing the data in one spot will cause data inconsistency
+                "
+"
+                            The function of a database is ...
+                        ","['A.data redundancy and program dependence', 'B. all of the options', 'C. difficult to update', 'D. lack of data independence']","
+                    Answer»
+                    B. all of the options
+                "
+"
+                            A command that lets you change one or more fields in a record is
+                        ","['A.elimination of data redundancy', 'B. ability of associate deleted data', 'C. increased security and program/data independence', 'D. all of the above']","
+                    Answer»
+                    D. all of the above
+                "
+"
+                            What is the language used by most of the DBMSs for helping their users to access data?
+                        ","['A.none of the options', 'B. is the recorded history of operations performed on a file', 'C. is used to make backup copies', 'D. can be used to restore lost information']","
+                    Answer»
+                    B. is the recorded history of operations performed on a file
+                "
+"
+                            Information can be transferred between the DBMS and a
+                        ","['A.codasyl specification', 'B. none of the options', 'C. mis', 'D. structured programming']","
+                    Answer»
+                    A. codasyl specification
+                "
+"
+                            The relational database environment has all of the following components except
+                        ","['A.store data input by a user', 'B. answer queries', 'C. both retrieve information from files and answer queries', 'D. retrieve information from files']","
+                    Answer»
+                    C. both retrieve information from files and answer queries
+                "
+"
+                            The ascending order of a data hirerchy is:
+                        ","['A.it will be dominant data base of the future', 'B. it allows a many-to-many relationship', 'C. it is a physical representation of the data', 'D. it is conceptually simple']","
+                    Answer»
+                    B. it allows a many-to-many relationship
+                "
+"
+                            Primitive operations common to all record management system include
+                        ","['A.can handle many files of information at a time', 'B. always uses a list as its model', 'C. both can handle many files of information at a time and always uses a list as its model', 'D. can be used to extract information stored in a computer file']","
+                    Answer»
+                    D. can be used to extract information stored in a computer file
+                "
+"
+                            Which of the following is not a relational database?
+                        ","['A.db/dc dictionary', 'B. datapac', 'C. total', 'D. access']","
+                    Answer»
+                    A. db/dc dictionary
+                "
+"
+                            A top-to-bottom relationship among the items in a database is established by a
+                        ","['A.to check all input data', 'B. to output data', 'C. to collect and organize input data', 'D. to check all spelling']","
+                    Answer»
+                    C. to collect and organize input data
+                "
+"
+                            Choose the RDBMS which supports full fledged client server application development
+                        ","['A.none of the options', 'B. modify', 'C. insert', 'D. lookup']","
+                    Answer»
+                    B. modify
+                "
+"
+                            The highest  level in the hierarchy of data organization is called
+                        ","['A.high level language', 'B. 4gl', 'C. query language', 'D. sql']","
+                    Answer»
+                    C. query language
+                "
+"
+                            The management information system (MIS) structure with one main computer system is called a
+                        ","['A.spreadsheet program', 'B. word processor program', 'C. graphics program', 'D. all of the options']","
+                    Answer»
+                    D. all of the options
+                "
+"
+                            In the DBMS approach, application programs perform the
+                        ","['A.users', 'B. database', 'C. query languages', 'D. separate files']","
+                    Answer»
+                    D. separate files
+                "
+"
+                            Which of the following is not true of the traditional approach to information processing
+                        ","['A.bit-byte-file-record-field-database', 'B. bit-byte-field-record-file-database', 'C. bit-byte-record-field-file-database', 'D. byte-bit-field-record-file-database']","
+                    Answer»
+                    B. bit-byte-field-record-file-database
+                "
+"
+                            Batch processing is appropriate if
+                        ","['A.look-up', 'B. all of the options', 'C. print', 'D. sort']","
+                    Answer»
+                    A. look-up
+                "
+"
+                            Large collection of files are called
+                        ","['A.dbase iv', 'B. foxpro', 'C. reflex', 'D. 4th dimension']","
+                    Answer»
+                    C. reflex
+                "
+"
+                            A transparent DBMS
+                        ","['A.hierarchical schema', 'B. all of the options', 'C. network schema', 'D. relational schema']","
+                    Answer»
+                    A. hierarchical schema
+                "
+"
+                            A file produced by a spreadsheet
+                        ","['A.dbase v', 'B. ingress', 'C. oracle 7.1', 'D. foxpro 2.1']","
+                    Answer»
+                    C. oracle 7.1
+                "
+"
+                            The model for a record management system might be
+                        ","['A.data base', 'B. data record', 'C. data bank', 'D. data file']","
+                    Answer»
+                    A. data base
+                "
+"
+                            Database management systems are intended to
+                        ","['A.decentralized mis structure', 'B. centralized mis structure', 'C. hierarchical mis structure', 'D. distributed mis structure']","
+                    Answer»
+                    B. centralized mis structure
+                "
+"
+                            The language used application programs to request data from the DBMS is referred to as the
+                        ","['A.storage function', 'B. access control', 'C. all of the options', 'D. processing functions']","
+                    Answer»
+                    D. processing functions
+                "
+"
+                            A set of programs that handle a firm's database responsibilities is called
+                        ","['A.it is file oriented', 'B. it is inflexible', 'C. there is common sharing of data among the various applications', 'D. programs are dependent on the file']","
+                    Answer»
+                    C. there is common sharing of data among the various applications
+                "
+"
+                            In a large DBMS
+                        ","['A.only a few transactions are involved', 'B. none of the options', 'C. large computer system is available', 'D. only a small computer system is avilbale']","
+                    Answer»
+                    B. none of the options
+                "

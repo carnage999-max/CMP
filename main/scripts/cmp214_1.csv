@@ -1,0 +1,651 @@
+Questions,options,answer
+"
+                            Which of the following is a Data Model?
+                        ","['A.entity-relationship model', 'B. relational data model', 'C. object-based data model', 'D. all of the above']","
+                    Answer»
+                    D. all of the above
+                "
+"
+                            A collection of related data.
+                        ","['A.Information', 'B. Valuable information', 'C. Database', 'D. Metadata']","
+                    Answer»
+                    C. Database
+                "
+"
+                            DBMS is software.
+                        ","['A.True', 'B. False', 'C. none', 'D. all']","
+                    Answer»
+                    A. True
+                "
+"
+                            DBMS manages the interaction between __________ and database.
+                        ","['A.Users', 'B. Clients', 'C. End Users', 'D. Stake Holders']","
+                    Answer»
+                    C. End Users
+                "
+"
+                            Which of the following is not involved in DBMS?
+                        ","['A.End Users', 'B. Data', 'C. Application Request', 'D. HTML']","
+                    Answer»
+                    D. HTML
+                "
+"
+                            Database is generally __________
+                        ","['A.System-centered', 'B. User-centered', 'C. Company-centered', 'D. Data-centered']","
+                    Answer»
+                    B. User-centered
+                "
+"
+                            A characteristic of an entity.
+                        ","['A.Relation', 'B. Attribute', 'C. Parameter', 'D. Constraint']","
+                    Answer»
+                    B. Attribute
+                "
+"
+                            The restrictions placed on the data.
+                        ","['A.Relation', 'B. Attribute', 'C. Parameter', 'D. Constraint']","
+                    Answer»
+                    D. Constraint
+                "
+"
+                            IMS stands for?
+                        ","['A.Information Mastering System', 'B. Instruction Management System', 'C. Instruction Manipulating System', 'D. Information Management System']","
+                    Answer»
+                    D. Information Management System
+                "
+"
+                            A model developed by Hammer and Mc Leod in 1981.
+                        ","['A.SDM', 'B. OODBM', 'C. DDM', 'D. RDM']","
+                    Answer»
+                    A. SDM
+                "
+"
+                            Object=_________+relationships.
+                        ","['A.data', 'B. attributes', 'C. entity', 'D. constraints']","
+                    Answer»
+                    C. entity
+                "
+"
+                            Duplication of data at several places is called as _______________.
+                        ","['A.Data Inconsistency', 'B. Data Isolation', 'C. Atomicity Problem', 'D. Data Redundance']","
+                    Answer»
+                    D. Data Redundance
+                "
+"
+                            Data Redundancy increases the cost of storing and retrieving data.
+                        ","['A.False', 'B. True', 'C. none', 'D. all']","
+                    Answer»
+                    B. True
+                "
+"
+                            Which of the information is not redundant.
+                        ","['A.name', 'B. mobile', 'C. account-no', 'D. address']","
+                    Answer»
+                    C. account-no
+                "
+"
+                            If in redundant file common fields are not matching then it results in _____________.
+                        ","['A.Data Inconsistency', 'B. Data Integrity Problem', 'C. Data Isolation', 'D. Data Redundancy']","
+                    Answer»
+                    A. Data Inconsistency
+                "
+"
+                            It is difficult to access conventional file system than Database System.
+                        ","['A.True', 'B. False', 'C. none', 'D. all']","
+                    Answer»
+                    A. True
+                "
+"
+                            An ________ is a set of entities of the same type that share the same properties, or
+attributes.
+                        ","['A.Entity set', 'B. Attribute set', 'C. Relation set', 'D. Entity model']","
+                    Answer»
+                    A. Entity set
+                "
+"
+                            Entity is a _________
+                        ","['A.Object of relation', 'B. Present working model', 'C. Thing in real world', 'D. Model of relation']","
+                    Answer»
+                    C. Thing in real world
+                "
+"
+                            The descriptive property possessed by each entity set is _________
+                        ","['A.Entity', 'B. Attribute', 'C. Relation', 'D. Model']","
+                    Answer»
+                    B. Attribute
+                "
+"
+                            The function that an entity plays in a relationship is called that entity’s _____________
+                        ","['A.Participation', 'B. Position', 'C. Role', 'D. Instance']","
+                    Answer»
+                    C. Role
+                "
+"
+                            The attribute name could be structured as an attribute consisting of first name, middle
+initial, and last name. This type of attribute is called
+                        ","['A.Simple attribute', 'B. Composite attribute', 'C. Multivalued attribute', 'D. Derived attribute']","
+                    Answer»
+                    B. Composite attribute
+                "
+"
+                            In a relation between the entities the type and condition of the relation should be specified.
+That is called as______attribute.
+                        ","['A.Desciptive', 'B. Derived', 'C. Recursive', 'D. Relative']","
+                    Answer»
+                    A. Desciptive
+                "
+"
+                            _____________ can help us detect poor E-R design.
+                        ","['A.Database Design Process', 'B. E-R Design Process', 'C. Relational scheme', 'D. Functional dependencies']","
+                    Answer»
+                    D. Functional dependencies
+                "
+"
+                            If a multivalued dependency holds and is not implied by the corresponding functional
+dependency, it usually arises from one of the following sources.
+                        ","['A.A many-to-many relationship set', 'B. A multivalued attribute of an entity set', 'C. A one-to-many relationship set', 'D. Both A many-to-many relationship set and A multivalued attribute of an entity set']","
+                    Answer»
+                    D. Both A many-to-many relationship set and A multivalued attribute of an entity set
+                "
+"
+                            Which of the following has each related entity set has its own schema and there is an
+additional schema for the relationship set.
+                        ","['A.A many-to-many relationship set', 'B. A multivalued attribute of an entity set', 'C. A one-to-many relationship set', 'D. All of the mentioned']","
+                    Answer»
+                    A. A many-to-many relationship set
+                "
+"
+                            In which of the following, a separate schema is created consisting of that attribute and the
+primary key of the entity set.
+                        ","['A.A many-to-many relationship set', 'B. A multivalued attribute of an entity set', 'C. A one-to-many relationship set', 'D. All of the mentioned']","
+                    Answer»
+                    B. A multivalued attribute of an entity set
+                "
+"
+                            Suppose the user finds the usage of room number and phone number in a relational
+schema there is confusion.This is reduced by
+                        ","['A.Unique-role assumption', 'B. Unique-key assignment', 'C. Role intergral assignment', 'D. None of the mentioned']","
+                    Answer»
+                    A. Unique-role assumption
+                "
+"
+                            Designers use which of the following to tune the performance of systems to support timecritical operations?
+                        ","['A.Denormalization', 'B. Redundant optimization', 'C. Optimization', 'D. Realization']","
+                    Answer»
+                    A. Denormalization
+                "
+"
+                            In the schema (dept name, size) we have relations total inst 2007, total inst 200Q:8) Which
+dependency have lead to this relation ?
+                        ","['A.Dept name, year->size', 'B. Year->size', 'C. Dept name->size', 'D. Size->year']","
+                    Answer»
+                    A. Dept name, year->size
+                "
+"
+                            Relation dept year(dept name, total inst 2007, total inst 2008, total inst 2009). Here the
+only functional dependencies are from dept name to the other attributes. This relation is in
+                        ","['A.Fourth NF', 'B. BCNF', 'C. Third NF', 'D. Second NF']","
+                    Answer»
+                    B. BCNF
+                "
+"
+                            Thus a _______ of course data gives the values of all attributes, such as title and
+department, of all courses at a particular point in time.
+                        ","['A.Instance', 'B. Snapshot', 'C. Both Instance and Snapshot', 'D. All of the mentioned']","
+                    Answer»
+                    B. Snapshot
+                "
+"
+                            Representations such as the in the dept year relation, with one column for each value of an attribute, are called _______ they are widely used in spreadsheets and reports and in data analysis tools.
+                        ","['A.Cross-tabs', 'B. Snapshot', 'C. Both Cross-tabs and Snapshot', 'D. All of the mentioned']","
+                    Answer»
+                    A. Cross-tabs
+                "
+"
+                            Data Model is collection of conceptual tools for describing -
+                        ","['A.Data', 'B. All of these', 'C. Data Schema', 'D. Consistency Constaints']","
+                    Answer»
+                    B. All of these
+                "
+"
+                            Data Models in DBMS are classified into ______ categories.
+                        ","['A.3', 'B. 2', 'C. 5', 'D. 4']","
+                    Answer»
+                    C. 5
+                "
+"
+                            Object based logical model(s) are used to describe data at - [Select Appropriate Option(s)]
+                        ","['A.View Level', 'B. Logical Level', 'C. Physical Level', 'D. None of these']","
+                    Answer»
+                    C. Physical Level
+                "
+"
+                            Which of the following is example of Object based logical model ?
+                        ","['A.Relational Model', 'B. Hierarchical Model', 'C. Network Model', 'D. Entity Relationship Model']","
+                    Answer»
+                    D. Entity Relationship Model
+                "
+"
+                            Entity Relationship model consists of collection of basic objects called _________ and
+relationship among these objects.
+                        ","['A.functions', 'B. models', 'C. None of these', 'D. entities']","
+                    Answer»
+                    D. entities
+                "
+"
+                            Which of the following gives a logical structure of the database graphically?
+                        ","['A.Entity-relationship diagram', 'B. Entity diagram', 'C. Database diagram', 'D. Architectural representation']","
+                    Answer»
+                    A. Entity-relationship diagram
+                "
+"
+                            Consider a directed line(->) from the relationship set advisor to both entity sets instructor
+and student. This indicates _________ cardinality
+                        ","['A.One to many', 'B. One to one', 'C. Many to many', 'D. Many to one']","
+                    Answer»
+                    B. One to one
+                "
+"
+                            We indicate roles in E-R diagrams by labeling the lines that connect ___________ to
+__________
+                        ","['A.Diamond , diamond', 'B. Rectangle, diamond', 'C. Rectangle, rectangle', 'D. Diamond, rectangle']","
+                    Answer»
+                    D. Diamond, rectangle
+                "
+"
+                            An entity set that does not have sufficient attributes to form a primary key is termed a
+__________
+                        ","['A.Strong entity set', 'B. Variant set', 'C. Weak entity set', 'D. Variable set']","
+                    Answer»
+                    C. Weak entity set
+                "
+"
+                            For a weak entity set to be meaningful, it must be associated with another entity set, called
+the
+                        ","['A.Identifying set', 'B. Owner set', 'C. Neighbour set', 'D. Strong entity set']","
+                    Answer»
+                    A. Identifying set
+                "
+"
+                            If you were collecting and storing information about your music collection, an album
+would be considered a(n) _____
+                        ","['A.Relation', 'B. Entity', 'C. Instance', 'D. Attribute']","
+                    Answer»
+                    B. Entity
+                "
+"
+                            What term is used to refer to a specific record in your music database; for instance;
+information stored about a specific album?
+                        ","['A.Relation', 'B. Instance', 'C. Table', 'D. Column']","
+                    Answer»
+                    B. Instance
+                "
+"
+                            If a piece of data is stored in two places in the database, then
+                        ","['A.Storage space is wasted', 'B. Changing the data in one spot will cause data inconsistency', 'C. In can be more easily accessed', 'D. Storage space is wasted & Changing the data in one spot will cause data inconsistency']","
+                    Answer»
+                    D. Storage space is wasted & Changing the data in one spot will cause data inconsistency
+                "
+"
+                            An audit trail ___________
+                        ","['A.Is used to make backup copies', 'B. Is the recorded history of operations performed on a file', 'C. Can be used to restore lost information', 'D. None of the mentioned']","
+                    Answer»
+                    B. Is the recorded history of operations performed on a file
+                "
+"
+                            Large collection of files are called ____________
+                        ","['A.Fields', 'B. Records', 'C. Database', 'D. Sectors']","
+                    Answer»
+                    C. Database
+                "
+"
+                            Which of the following hardware component is the most important to the operation of a
+database management system?
+                        ","['A.High resolution video display', 'B. Printer', 'C. High speed, large capacity disk', 'D. Mouse']","
+                    Answer»
+                    C. High speed, large capacity disk
+                "
+"
+                            Which of the following is not true of the traditional approach to information processing
+                        ","['A.There is common sharing of data among the various applications', 'B. It is file oriented', 'C. Programs are dependent on the file', 'D. It is inflexible']","
+                    Answer»
+                    A. There is common sharing of data among the various applications
+                "
+"
+                            The information about data in a database is called _______
+                        ","['A.Metadata', 'B. Hyper data', 'C. Tera data', 'D. None of the mentioned']","
+                    Answer»
+                    A. Metadata
+                "
+"
+                            A data dictionary is a special file that contains?
+                        ","['A.The names of all fields in all files', 'B. The data types of all fields in all files', 'C. The widths of all fields in all files', 'D. All of the mentioned']","
+                    Answer»
+                    D. All of the mentioned
+                "
+"
+                            A relational database system needs to maintain data about the relations, such as the
+schema of the relations. This is called
+                        ","['A.Metadata', 'B. Catalog', 'C. Log', 'D. Dictionary']","
+                    Answer»
+                    A. Metadata
+                "
+"
+                            Relational schemas and other metadata about relations are stored in a structure called
+the ____________
+                        ","['A.Metadata', 'B. Catalog', 'C. Log', 'D. Data Dictionary']","
+                    Answer»
+                    D. Data Dictionary
+                "
+"
+                            ___________ is the collection of memory structures and Oracle background processes
+that operates against an Oracle database.
+                        ","['A.Database', 'B. Instance', 'C. Tablespace', 'D. Segment']","
+                    Answer»
+                    B. Instance
+                "
+"
+                            A ________ is a logical grouping of database objects, usually to facilitate security,
+performance, or the availability of database objects such as tables and indexes.
+                        ","['A.Tablespace', 'B. Segments', 'C. Extents', 'D. Blocks']","
+                    Answer»
+                    A. Tablespace
+                "
+"
+                            A tablespace is further broken down into ________
+                        ","['A.Tablespace', 'B. Segments', 'C. Extents', 'D. Blocks']","
+                    Answer»
+                    B. Segments
+                "
+"
+                            __________ is a contiguous group of blocks allocated for use as part of a table, index,
+and so forth.
+                        ","['A.Tablespace', 'B. Segment', 'C. Extent', 'D. Block']","
+                    Answer»
+                    C. Extent
+                "
+"
+                            ________ is the smallest unit of allocation in an Oracle database.
+                        ","['A.Database', 'B. Instance', 'C. Tablespace', 'D. Database Block']","
+                    Answer»
+                    D. Database Block
+                "
+"
+                            An Oracle __________ is a set of tables and views that are used as a read-only
+reference about the database.
+                        ","['A.Database dictionary', 'B. Dictionary table', 'C. Data dictionary', 'D. Dictionary']","
+                    Answer»
+                    C. Data dictionary
+                "
+"
+                            A data dictionary is created when a __________ created.
+                        ","['A.Instance', 'B. Segment', 'C. Database', 'D. Dictionary']","
+                    Answer»
+                    C. Database
+                "
+"
+                            An Oracle object type has two parts the _________ and__________
+                        ","['A.Instance and body', 'B. Segment and blocks', 'C. Specification and body', 'D. Body and segment']","
+                    Answer»
+                    C. Specification and body
+                "
+"
+                            A(n) _________ can be used to preserve the integrity of a document or a message.
+                        ","['A.Message digest', 'B. Message summary', 'C. Encrypted message', 'D. None of the mentioned']","
+                    Answer»
+                    A. Message digest
+                "
+"
+                            A hash function must meet ________ criteriA:)
+                        ","['A.Two', 'B. Three', 'C. Four', 'D. None of the mentioned']","
+                    Answer»
+                    B. Three
+                "
+"
+                            What is the main limitation of Hierarchical Databases?
+                        ","['A.Limited capacity (unable to hold much datA:)', 'B. Limited flexibility in accessing data', 'C. Overhead associated with maintaining indexes', 'D. The performance of the database is poor']","
+                    Answer»
+                    B. Limited flexibility in accessing data
+                "
+"
+                            The property (or set of properties) that uniquely defines each row in a table is called the:
+                        ","['A.Identifier', 'B. Index', 'C. Primary key', 'D. Symmetric key']","
+                    Answer»
+                    C. Primary key
+                "
+"
+                            The separation of the data definition from the program is known as:
+                        ","['A.Data dictionary', 'B. Data independence', 'C. Data integrity', 'D. Referential integrity']","
+                    Answer»
+                    B. Data independence
+                "
+"
+                            The traditional storage of data that is organized by customer, stored in separate folders
+in filing cabinets is an example of what type of ‘database’ system?
+                        ","['A.Hierarchical', 'B. Network', 'C. Object oriented', 'D. Relational']","
+                    Answer»
+                    A. Hierarchical
+                "
+"
+                            The database design that consists of multiple tables that are linked together through
+matching data stored in each table is called
+                        ","['A.Hierarchical database', 'B. Network database', 'C. Object oriented database', 'D. Relational database']","
+                    Answer»
+                    D. Relational database
+                "
+"
+                            The association role defines:
+                        ","['A.How tables are related in the database', 'B. The relationship between the class diagram and the tables in the database', 'C. The tables that each attribute is contained', 'D. Which attribute is the table’s primary key']","
+                    Answer»
+                    A. How tables are related in the database
+                "
+"
+                            The purpose of an N-Ary association is:
+                        ","['A.To capture a parent-child relationship', 'B. To deal with one to many relationships', 'C. To deal with relationships that involve more than two tables', 'D. To represent an inheritance relationship']","
+                    Answer»
+                    C. To deal with relationships that involve more than two tables
+                "
+"
+                            In ordered indices the file containing the records is sequentially ordered, a
+___________ is an index whose search key also defines the sequential order of the file.
+                        ","['A.Clustered index', 'B. Structured index', 'C. Unstructured index', 'D. Nonclustered index']","
+                    Answer»
+                    A. Clustered index
+                "
+"
+                            Indices whose search key specifies an order different from the sequential order of the
+file are called ___________ indices.
+                        ","['A.Nonclustered', 'B. Secondary', 'C. All of the mentioned', 'D. None of the mentioned']","
+                    Answer»
+                    C. All of the mentioned
+                "
+"
+                            An ____________ consists of a search-key value and pointers to one or more records
+with that value as their search-key value.
+                        ","['A.Index entry', 'B. Index hash', 'C. Index cluster', 'D. Index map']","
+                    Answer»
+                    A. Index entry
+                "
+"
+                            In a _______ clustering index, the index record contains the search-key value and a
+pointer to the first data record with that search-key value and the rest of the records will be in
+the sequential pointers.
+                        ","['A.Dense', 'B. Sparse', 'C. Straight', 'D. Continuous']","
+                    Answer»
+                    A. Dense
+                "
+"
+                            In a __________ index, an index entry appears for only some of the search-key values.
+                        ","['A.Dense', 'B. Sparse', 'C. Straight', 'D. Continuous']","
+                    Answer»
+                    A. Dense
+                "
+"
+                            Incase the indices values are larger, index is created for these values of the index. This
+is called
+                        ","['A.Pointed index', 'B. Sequential index', 'C. Multilevel index', 'D. Multiple index']","
+                    Answer»
+                    C. Multilevel index
+                "
+"
+                            A search key containing more than one attribute is referred to as a _________ search
+key.
+                        ","['A.Simple', 'B. Composite', 'C. Compound', 'D. Secondary']","
+                    Answer»
+                    B. Composite
+                "
+"
+                            Insertion of a large number of entries at a time into an index is referred to as
+__________ of the index.
+                        ","['A.Loading', 'B. Bulk insertion', 'C. Bulk loading', 'D. Increase insertion']","
+                    Answer»
+                    C. Bulk loading
+                "
+"
+                            While inserting the record into the index, if the search-key value does not appear in the
+index.
+                        ","['A.The system adds a pointer to the new record in the index entry', 'B. The system places the record being inserted after the other records with the same searchkey values', 'C. The system inserts an index entry with the search-key value in the index at the appropriate position', 'D. None of the mentioned']","
+                    Answer»
+                    C. The system inserts an index entry with the search-key value in the index at the appropriate position
+                "
+"
+                            A collection of data designed to be used by different people is called a/an
+                        ","['A.Organization', 'B. Database', 'C. Relationship', 'D. Schema']","
+                    Answer»
+                    B. Database
+                "
+"
+                            Which of the following is the oldest database model?
+                        ","['A.Relational', 'B. Deductive', 'C. Physical', 'D. Network']","
+                    Answer»
+                    D. Network
+                "
+"
+                            Which of the following schemas does define a view or views of the database for
+particular users?
+                        ","['A.Internal schema', 'B. Conceptual schema', 'C. Physical schema', 'D. External schema']","
+                    Answer»
+                    D. External schema
+                "
+"
+                            Which of the following are the process of selecting the data storage and data access
+characteristics of the database?
+                        ","['A.Logical database design', 'B. Physical database design', 'C. Testing and performance tuning', 'D. Evaluation and selecting']","
+                    Answer»
+                    B. Physical database design
+                "
+"
+                            Which of the following terms does refer to the correctness and completeness of the data
+in a database?
+                        ","['A.Data security', 'B. Data constraint', 'C. Data independence', 'D. Data integrity']","
+                    Answer»
+                    D. Data integrity
+                "
+"
+                            A table can be logically connected to another table by defining a
+                        ","['A.Super key', 'B. Candidate key', 'C. Primary key', 'D. Unique key']","
+                    Answer»
+                    C. Primary key
+                "
+"
+                            If the state of the database no longer reflects a real state of the world that the database
+is supposed to capture, then such a state is called
+                        ","['A.Consistent state', 'B. Parallel state', 'C. Durable state', 'D. Inconsistent state']","
+                    Answer»
+                    D. Inconsistent state
+                "
+"
+                            Ensuring isolation property is the responsibility of the
+                        ","['A.Recovery-management component of the DBMS', 'B. Concurrency-control component of the DBMS', 'C. Transaction-management component of the DBMS', 'D. Buffer management component in DBMS']","
+                    Answer»
+                    B. Concurrency-control component of the DBMS
+                "
+"
+                            Relational Algebra is a __________ query language that takes two relations as input and
+produces another relation as an output of the query.
+                        ","['A.Relational', 'B. Structural', 'C. Procedural', 'D. Fundamental']","
+                    Answer»
+                    C. Procedural
+                "
+"
+                            For select operation the ________ appear in the subscript and the ___________ argument
+appears in the paranthesis after the sigmA:)
+                        ","['A.Predicates, relation', 'B. Relation, Predicates', 'C. Operation, Predicates', 'D. Relation, Operation']","
+                    Answer»
+                    A. Predicates, relation
+                "
+"
+                            The ___________ operation, denoted by −, allows us to find tuples that are in one relation
+but are not in another.
+                        ","['A.Union', 'B. Set-difference', 'C. Difference', 'D. Intersection']","
+                    Answer»
+                    B. Set-difference
+                "
+"
+                            In precedence of set operators, the expression is evaluated from
+                        ","['A.Left to left', 'B. Left to right', 'C. Right to left', 'D. From user specification']","
+                    Answer»
+                    B. Left to right
+                "
+"
+                            Which one of the following is a set of one or more attributes taken collectively to uniquely
+identify a record?
+                        ","['A.Candidate key', 'B. Sub key', 'C. Super key', 'D. Foreign key']","
+                    Answer»
+                    C. Super key
+                "
+"
+                            Consider attributes ID, CITY and NAME. Which one of this can be considered as a super
+key?
+                        ","['A.NAME', 'B. ID', 'C. CITY', 'D. CITY, ID']","
+                    Answer»
+                    B. ID
+                "
+"
+                            A _____ is a property of the entire relation, rather than of the individual tuples in which
+each tuple is unique.
+                        ","['A.Rows', 'B. Key', 'C. Attribute', 'D. Fields']","
+                    Answer»
+                    B. Key
+                "
+"
+                            An attribute in a relation is a foreign key if the _______ key from one relation is used as an
+attribute in that relation.
+                        ","['A.Candidate', 'B. Primary', 'C. Super', 'D. Sub']","
+                    Answer»
+                    B. Primary
+                "
+"
+                            The relation with the attribute which is the primary key is referenced in another relation.
+The relation which has the attribute as a primary key is called ______________
+                        ","['A.Referential relation', 'B. Referencing relation', 'C. Referenced relation', 'D. Referred relation']","
+                    Answer»
+                    C. Referenced relation
+                "
+"
+                            The ______ is the one in which the primary key of one relation is used as a normal
+attribute in another relation.
+                        ","['A.Referential relation', 'B. Referencing relation', 'C. Referenced relation', 'D. Referred relation']","
+                    Answer»
+                    C. Referenced relation
+                "
+"
+                            A _________ integrity constraint requires that the values appearing in specified attributes
+of any tuple in the referencing relation also appear in specified attributes of at least one tuple in
+the referenced relation.
+                        ","['A.Referential', 'B. Referencing', 'C. Specific', 'D. Primary']","
+                    Answer»
+                    A. Referential
+                "
+"
+                            A relational database consists of a collection of
+                        ","['A.Tables', 'B. Fields', 'C. Records', 'D. Keys']","
+                    Answer»
+                    A. Tables
+                "
+"
+                            A ________ in a table represents a relationship among a set of values.
+                        ","['A.Column', 'B. Key', 'C. Row', 'D. Entry']","
+                    Answer»
+                    C. Row
+                "

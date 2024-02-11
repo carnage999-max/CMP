@@ -1,0 +1,623 @@
+Questions,options,answer
+"
+                            The term _______ is used to refer to a row.
+                        ","['A.Attribute', 'B. Tuple', 'C. Field', 'D. Instance']","
+                    Answer»
+                    B. Tuple
+                "
+"
+                            The term attribute refers to a ___________ of a table.
+                        ","['A.Record', 'B. Column', 'C. Tuple', 'D. Key']","
+                    Answer»
+                    B. Column
+                "
+"
+                            For each attribute of a relation, there is a set of permitted values, called the ________ of
+that attribute.
+                        ","['A.Domain', 'B. Relation', 'C. Set', 'D. Schema']","
+                    Answer»
+                    A. Domain
+                "
+"
+                            Database __________ which is the logical design of the database, and the database
+_______ which is a snapshot of the data in the database at a given instant in time.
+                        ","['A.Instance, Schema', 'B. Relation, Schema', 'C. Relation, Domain', 'D. Schema, Instance']","
+                    Answer»
+                    D. Schema, Instance
+                "
+"
+                            Course(course_id,sec_id,semester)
+Here the course_id,sec_id and semester are __________ and course is a _________
+                        ","['A.Relations, Attribute', 'B. Attributes, Relation', 'C. Tuple, Relation', 'D. Tuple, Attributes']","
+                    Answer»
+                    B. Attributes, Relation
+                "
+"
+                            Department (dept name, building, budget) and Employee (employee_id, name, dept name, salary) 
+Here the dept_name attribute appears in both the relations. Here using common attributes in relation schema is one way of relating ___________ relations.
+                        ","['A.Attributes of common', 'B. Tuple of common', 'C. Tuple of distinct', 'D. Attributes of distinct']","
+                    Answer»
+                    C. Tuple of distinct
+                "
+"
+                            A domain is atomic if elements of the domain are considered to be ____________ units.
+                        ","['A.Different', 'B. Indivisbile', 'C. Constant', 'D. Divisible']","
+                    Answer»
+                    B. Indivisbile
+                "
+"
+                            The tuples of the relations can be of ________ order.
+                        ","['A.Any', 'B. Same', 'C. Sorted', 'D. Constant']","
+                    Answer»
+                    A. Any
+                "
+"
+                            Choose the correct statement regarding superkeys
+                        ","['A.A superkey is an attribute or a group of multiple attributes that can uniquely identify a tuple', 'B. A superkey is a tuple or a set of multiple tuples that can uniquely identify an attribute', 'C. Every superkey is a candidate key', 'D. A superkey is an attribute or a set of attributes that distinguish the relation from other relations']","
+                    Answer»
+                    A. A superkey is an attribute or a group of multiple attributes that can uniquely identify a tuple
+                "
+"
+                            What is an Instance of a Database?
+                        ","['A.The logical design of the database system', 'B. The entire set of attributes of the Database put together in a single relation', 'C. The state of the database system at any given point of time', 'D. The initial values inserted into the Database immediately after its creation']","
+                    Answer»
+                    C. The state of the database system at any given point of time
+                "
+"
+                            What is a foreign key?
+                        ","['A.A foreign key is a primary key of a relation which is an attribute in another relation', 'B. A foreign key is a superkey of a relation which is an attribute in more than one other relations', 'C. A foreign key is an attribute of a relation that is a primary key of another relation', 'D. A foreign key is the primary key of a relation that does not occur anywhere else in the schema']","
+                    Answer»
+                    C. A foreign key is an attribute of a relation that is a primary key of another relation
+                "
+"
+                            What action does ⋈ operator perform in relational algebra
+                        ","['A.Output specified attributes from all rows of the input relation and remove duplicate tuples from the output', 'B. Outputs pairs of rows from the two input relations that have the same value on all attributes  that have the same name', 'C. Output all pairs of rows from the two input relations (regardless of whether or not they have the same values on common attributes)', 'D. Return rows of the input relation that satisfy the predicate']","
+                    Answer»
+                    A. Output specified attributes from all rows of the input relation and remove duplicate tuples from the output
+                "
+"
+                            What does the “x” operator do in relational algebra?
+                        ","['A.Output specified attributes from all rows of the input relation. Remove duplicate tuples from the output', 'B. Output pairs of rows from the two input relations that have the same value on all attributes that have the same name', 'C. Output all pairs of rows from the two input relations (regardless of whether or not they have the same values on common attributes)', 'D. Returns the rows of the input relation that satisfy the predicate']","
+                    Answer»
+                    C. Output all pairs of rows from the two input relations (regardless of whether or not they have the same values on common attributes)
+                "
+"
+                            An attribute is a __________ in a relation.
+                        ","['A.Row', 'B. Column', 'C. Value', 'D. Tuple']","
+                    Answer»
+                    B. Column
+                "
+"
+                            What is the method of specifying a primary key in a schema description?
+                        ","['A.By writing it in bold letters', 'B. By underlining it using a dashed line', 'C. By writing it in capital letters', 'D. By underlining it using a bold line']","
+                    Answer»
+                    D. By underlining it using a bold line
+                "
+"
+                            Statement 1: A tuple is a row in a relation
+Statement 2: Existence of multiple foreign keys in a same relation is possible
+                        ","['A.Both the statements are true', 'B. Statement 1 is correct but Statement 2 is false', 'C. Statement 1 is false but Statement 2 is correct', 'D. Both the statements are false']","
+                    Answer»
+                    A. Both the statements are true
+                "
+"
+                            Choose the option that correctly explains in words, the function of the following relational
+algebra expression σyear≥2009 (book ⋈ borrow)
+                        ","['A.Selects all tuples from the Cartesian product of book and borrow', 'B. Selects all the tuples from the natural join of book and borrow wherever the year is lesser than 2009', 'C. Selects all the tuples from the natural join of book and student wherever the year is greater than or equal to 2009', 'D. Selects all tuples from the Cartesian product of book and borrow wherever the year is greater than or equal to 2009']","
+                    Answer»
+                    B. Selects all the tuples from the natural join of book and borrow wherever the year is lesser than 2009
+                "
+"
+                            State true or false: If a relation consists of a foreign key, then it is called a referenced
+relation of the foreign key dependency.
+                        ","['A.True', 'B. False', 'C. none', 'D. all']","
+                    Answer»
+                    B. False
+                "
+"
+                            Which of the following information does an SQL DDL not specify?
+                        ","['A.The schema for each relation', 'B. The integrity constraints', 'C. The operations on the tuples', 'D. The security and authorization information for each relation']","
+                    Answer»
+                    C. The operations on the tuples
+                "
+"
+                            Which of the following data types does the SQL standard not support?
+                        ","['A.char(n)', 'B. String(n)', 'C. varchar(n)', 'D. float(n)']","
+                    Answer»
+                    B. String(n)
+                "
+"
+                            Which command is used to create a new relation in SQL
+                        ","['A.create table( , …)', 'B. create relation( , …)', 'C. new table( , …)', 'D. new relation( , …)']","
+                    Answer»
+                    A. create table( , …)
+                "
+"
+                            If a1, a2, a3 are attributes in a relation and S is another relation, which of the following is
+an incorrect specification of an integrity constraint?
+                        ","['A.primary key(a1, a2, a3)', 'B. primary key(a1)', 'C. foreign key(a1, a2) references S', 'D. foreign key(a1, a2)']","
+                    Answer»
+                    D. foreign key(a1, a2)
+                "
+"
+                            What is the syntax to load data into the database? (Consider D as the database and a, b, c
+as datA:)
+                        ","['A.enter into D (a, b, C:);', 'B. insert into D values (a, b, C:);', 'C. insert into D (a, b, C:);', 'D. insert (a, b, C:) values into D;']","
+                    Answer»
+                    B. insert into D values (a, b, C:);
+                "
+"
+                            Which of the following commands do we use to delete a relation (R) from a database?
+                        ","['A.drop table R', 'B. drop relation R', 'C. delete table R', 'D. delete from R']","
+                    Answer»
+                    A. drop table R
+                "
+"
+                            Which of the following commands do we use to delete all the tuples from a relation (R)?
+                        ","['A.delete table R', 'B. drop table R', 'C. delete from R', 'D. drop from R']","
+                    Answer»
+                    C. delete from R
+                "
+"
+                            Choose the correct command to delete an attribute A from a relation R
+                        ","['A.alter table R delete A', 'B. alter table R drop A', 'C. alter table drop A from R', 'D. delete A from R']","
+                    Answer»
+                    B. alter table R drop A
+                "
+"
+                            create table apartment(ownerID varchar (5), ownername varchar(25), floor numeric(4,0),
+primary key (ownerID:));
+Choose the correct option regarding the above statement
+                        ","['A.The statement is syntactically wrong', 'B. It creates a relation with three attributes ownerID, ownername, floor in which floor cannot be null.', 'C. It creates a relation with three attributes ownerID, ownername, floor in which ownerID cannot be null.', 'D. It creates a relation with three attributes ownerID, ownername, floor in which ownername must consist of at least 25 characters.']","
+                    Answer»
+                    C. It creates a relation with three attributes ownerID, ownername, floor in which ownerID cannot be null.
+                "
+"
+                            What does the notnull integrity constraint do?
+                        ","['A.It ensures that at least one tuple is present in the relation', 'B. It ensures that at least one foreign key is present in the relation', 'C. It ensures that all tuples have a finite value on a specified attribute', 'D. It ensures that all tuples have finite attributes on all the relations']","
+                    Answer»
+                    C. It ensures that all tuples have a finite value on a specified attribute
+                "
+"
+                            Which SQL function is used to count the number of rows in a SQL query?
+                        ","['A.COUNT()', 'B. NUMBER()', 'C. SUM()', 'D. COUNT(*)']","
+                    Answer»
+                    D. COUNT(*)
+                "
+"
+                            Which SQL keyword is used to retrieve a maximum value?
+                        ","['A.MOST', 'B. TOP', 'C. MAX', 'D. UPPER']","
+                    Answer»
+                    C. MAX
+                "
+"
+                            Which of the following SQL clauses is used to DELETE tuples from a database table?
+                        ","['A.DELETE', 'B. REMOVE', 'C. DROP', 'D. CLEAR']","
+                    Answer»
+                    A. DELETE
+                "
+"
+                            ___________removes all rows from a table without logging the individual row deletions.
+                        ","['A.DELETE', 'B. REMOVE', 'C. DROP', 'D. TRUNCATE']","
+                    Answer»
+                    D. TRUNCATE
+                "
+"
+                            Which of the following is not a DDL command?
+                        ","['A.UPDATE', 'B. TRUNCATE', 'C. ALTER', 'D. None of the Mentioned']","
+                    Answer»
+                    A. UPDATE
+                "
+"
+                            Which of the following are TCL commands?
+                        ","['A.UPDATE and TRUNCATE', 'B. SELECT and INSERT', 'C. GRANT and REVOKE', 'D. ROLLBACK and SAVEPOINT']","
+                    Answer»
+                    D. ROLLBACK and SAVEPOINT
+                "
+"
+                            ________________ is not a category of SQL command.
+                        ","['A.TCL', 'B. SCL', 'C. DCL', 'D. DDL']","
+                    Answer»
+                    B. SCL
+                "
+"
+                            If you don’t specify ASC or DESC after a SQL ORDER BY clause, the following is used
+by default ______________
+                        ","['A.ASC', 'B. DESC', 'C. There is no default value', 'D. None of the mentioned']","
+                    Answer»
+                    A. ASC
+                "
+"
+                            Which of the following statement is true?
+                        ","['A.DELETE does not free the space containing the table and TRUNCATE free the space containing the table', 'B. Both DELETE and TRUNCATE free the space containing the table', 'C. Both DELETE and TRUNCATE does not free the space containing the table', 'D. DELETE free the space containing the table and TRUNCATE does not free the space containing the table']","
+                    Answer»
+                    A. DELETE does not free the space containing the table and TRUNCATE free the space containing the table
+                "
+"
+                            What is the purpose of the SQL AS clause?
+                        ","['A.The AS SQL clause is used to change the name of a column in the result set or to assign a name to a derived column', 'B. The AS clause is used with the JOIN clause only', 'C. The AS clause defines a search condition', 'D. All of the mentioned']","
+                    Answer»
+                    A. The AS SQL clause is used to change the name of a column in the result set or to assign a name to a derived column
+                "
+"
+                            What does DML stand for?
+                        ","['A.Different Mode Level', 'B. Data Model Language', 'C. Data Mode Lane', 'D. Data Manipulation language']","
+                    Answer»
+                    D. Data Manipulation language
+                "
+"
+                            With SQL, how do you select all the records from a table named “Persons” where the value
+of the column “FirstName” ends with an “a”?
+                        ","['A.SELECT * FROM Persons WHERE FirstName=’a’', 'B. SELECT * FROM Persons WHERE FirstName LIKE ‘a%’', 'C. SELECT * FROM Persons WHERE FirstName LIKE ‘%a’', 'D. SELECT * FROM Persons WHERE FirstName=’%a%’']","
+                    Answer»
+                    C. SELECT * FROM Persons WHERE FirstName LIKE ‘%a’
+                "
+"
+                            With SQL, how can you return all the records from a table named “Persons” sorted
+descending by “FirstName”?
+                        ","['A.SELECT * FROM Persons SORT BY ‘FirstName’ DESC', 'B. SELECT * FROM Persons ORDER FirstName DESC', 'C. SELECT * FROM Persons SORT ‘FirstName’ DESC', 'D. SELECT * FROM Persons ORDER BY FirstName DESC']","
+                    Answer»
+                    D. SELECT * FROM Persons ORDER BY FirstName DESC
+                "
+"
+                            With SQL, how can you return the number of not null records in the “Persons” table?
+                        ","['A.SELECT COUNT() FROM Persons', 'B. SELECT COLUMNS() FROM Persons', 'C. SELECT COLUMNS(*) FROM Persons', 'D. SELECT COUNT(*) FROM Persons']","
+                    Answer»
+                    A. SELECT COUNT() FROM Persons
+                "
+"
+                            What does the ALTER TABLE clause do?
+                        ","['A.The SQL ALTER TABLE clause modifies a table definition by altering, adding, or deleting table columns and/or constraints', 'B. The SQL ALTER TABLE clause is used to insert data into database table', 'C. THE SQL ALTER TABLE deletes data from database table', 'D. The SQL ALTER TABLE clause is used to delete a database table']","
+                    Answer»
+                    A. The SQL ALTER TABLE clause modifies a table definition by altering, adding, or deleting table columns and/or constraints
+                "
+"
+                            The UPDATE SQL clause can _____________
+                        ","['A.update only one row at a time', 'B. update more than one row at a time', 'C. delete more than one row at a time', 'D. delete only one row at a time']","
+                    Answer»
+                    B. update more than one row at a time
+                "
+"
+                            The UNION SQL clause can be used with _____________
+                        ","['A.SELECT clause only', 'B. DELETE and UPDATE clauses', 'C. UPDATE clause only', 'D. All of the mentioned']","
+                    Answer»
+                    A. SELECT clause only
+                "
+"
+                            Which SQL statement is used to return only different values?
+                        ","['A.SELECT DIFFERENT', 'B. SELECT UNIQUE', 'C. SELECT DISTINCT', 'D. SELECT ALL']","
+                    Answer»
+                    C. SELECT DISTINCT
+                "
+"
+                            Which SQL keyword is used to sort the result-set?
+                        ","['A.ORDER BY', 'B. SORT', 'C. ORDER', 'D. SORT BY']","
+                    Answer»
+                    A. ORDER BY
+                "
+"
+                            How can you change “Hansen” into “Nilsen” in the “LastName” column in the Persons table?
+                        ","['A.UPDATE Persons SET LastName=’Hansen’ INTO LastName=’Nilsen’', 'B. MODIFY Persons SET LastName=’Nilsen’ WHERE LastName=’Hansen’', 'C. MODIFY Persons SET LastName=’Hansen’ INTO LastName=’Nilsen’', 'D. UPDATE Persons SET LastName=’Nilsen’ WHERE LastName=’Hansen’']","
+                    Answer»
+                    D. UPDATE Persons SET LastName=’Nilsen’ WHERE LastName=’Hansen’
+                "
+"
+                            Which of the following command makes the updates performed by the transaction
+permanent in the database?
+                        ","['A.ROLLBACK', 'B. COMMIT', 'C. TRUNCATE', 'D. DELETE']","
+                    Answer»
+                    B. COMMIT
+                "
+"
+                            Which TCL command undo all the updates performed by the SQL in the transaction?
+                        ","['A.ROLLBACK', 'B. COMMIT', 'C. TRUNCATE', 'D. DELETE']","
+                    Answer»
+                    A. ROLLBACK
+                "
+"
+                            SQL query to find all the cities whose humidity is 95.
+                        ","['A.SELECT city WHERE humidity = 95', 'B. SELECT city FROM weather WHERE humidity = 95', 'C. SELECT humidity = 89 FROM weather', 'D. SELECT city FROM weather']","
+                    Answer»
+                    B. SELECT city FROM weather WHERE humidity = 95
+                "
+"
+                            SQL query to find the temperature in increasing order of all cities.
+                        ","['A.SELECT city FROM weather ORDER BY temperature', 'B. SELECT city, temperature FROM weather', 'C. SELECT city, temperature FROM weather ORDER BY temperature', 'D. SELECT city, temperature FROM weather ORDER BY city']","
+                    Answer»
+                    D. SELECT city, temperature FROM weather ORDER BY city
+                "
+"
+                            What is the meaning of LIKE ‘%0%0%’?
+                        ","['A.Feature begins with two 0’s', 'B. Feature ends with two 0’s', 'C. Feature has more than two 0’s', 'D. Feature has two 0’s in it, at any position']","
+                    Answer»
+                    D. Feature has two 0’s in it, at any position
+                "
+"
+                            Find the names of these cities with temperature and condition whose condition is neither
+sunny nor cloudy.
+                        ","['A.SELECT city, temperature, condition FROM weather WHERE condition NOT IN (‘sunny’, ‘cloudy’)', 'B. SELECT city, temperature, condition FROM weather WHERE condition NOT BETWEEN (‘sunny’, ‘cloudy’)', 'C. SELECT city, temperature, condition FROM weather WHERE condition IN (‘sunny’, ‘cloudy’)', 'D. SELECT city, temperature, condition FROM weather WHERE condition BETWEEN (‘sunny’, ‘cloudy’);']","
+                    Answer»
+                    A. SELECT city, temperature, condition FROM weather WHERE condition NOT IN (‘sunny’, ‘cloudy’)
+                "
+"
+                            Find the name of those cities with temperature and condition whose condition is either sunny or cloudy but temperature must be greater than 70.
+                        ","['A.SELECT city, temperature, condition FROM weather WHERE condition = ‘sunny’ AND condition = ‘cloudy’ OR temperature > 70', 'B. SELECT city, temperature, condition FROM weather WHERE condition = ‘sunny’ OR condition = ‘cloudy’ OR temperature > 70', 'C. SELECT city, temperature, condition FROM weather WHERE condition = ‘sunny’ OR condition = ‘cloudy’ AND temperature > 70', 'D. SELECT city, temperature, condition FROM weather WHERE condition = ‘sunny’ AND condition = ‘cloudy’ AND temperature > 70']","
+                    Answer»
+                    C. SELECT city, temperature, condition FROM weather WHERE condition = ‘sunny’ OR condition = ‘cloudy’ AND temperature > 70
+                "
+"
+                            Find all the tuples having a temperature greater than ‘Paris’.
+                        ","['A.SELECT * FROM weather WHERE temperature > (SELECT temperature FROM weather WHERE city = ‘Paris’', 'B. SELECT * FROM weather WHERE temperature > (SELECT * FROM weather WHERE city = ‘Paris’)', 'C. SELECT * FROM weather WHERE temperature > (SELECT city FROM weather WHERE city = ‘Paris’)', 'D. SELECT * FROM weather WHERE temperature > ‘Paris’ temperature']","
+                    Answer»
+                    A. SELECT * FROM weather WHERE temperature > (SELECT temperature FROM weather WHERE city = ‘Paris’
+                "
+"
+                            Find all the cities with temperature, condition and humidity whose humidity is in the range
+of 63 to 79.
+                        ","['A.SELECT * FROM weather WHERE humidity IN (63 to 79)', 'B. SELECT * FROM weather WHERE humidity NOT IN (63 AND 79)', 'C. SELECT * FROM weather WHERE humidity BETWEEN 63 AND 79', 'D. SELECT * FROM weather WHERE humidity NOT BETWEEN 63 AND 79']","
+                    Answer»
+                    C. SELECT * FROM weather WHERE humidity BETWEEN 63 AND 79
+                "
+"
+                            The command to remove rows from a table ‘CUSTOMER’ is __________________
+                        ","['A.DROP FROM CUSTOMER', 'B. UPDATE FROM CUSTOMER', 'C. REMOVE FROM CUSTOMER', 'D. DELETE FROM CUSTOMER WHERE']","
+                    Answer»
+                    D. DELETE FROM CUSTOMER WHERE
+                "
+"
+                            What type of join is needed when you wish to include rows that do not have matching
+values?
+                        ","['A.Equi-join', 'B. Natural join', 'C. Outer join', 'D. All of the Mentioned']","
+                    Answer»
+                    C. Outer join
+                "
+"
+                            What type of join is needed when you wish to return rows that do have matching values?
+                        ","['A.Equi-join', 'B. Natural join', 'C. Outer join', 'D. All of the Mentioned']","
+                    Answer»
+                    D. All of the Mentioned
+                "
+"
+                            Which of the following is one of the basic approaches for joining tables?
+                        ","['A.Subqueries', 'B. Union Join', 'C. Natural join', 'D. All of the Mentioned']","
+                    Answer»
+                    D. All of the Mentioned
+                "
+"
+                            The following SQL is which type of join: SELECT CUSTOMER_T. CUSTOMER_ID,
+ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM CUSTOMER_T,ORDER_T WHERE CUSTOMER_T. CUSTOMER_ID = ORDER_T. CUSTOMER_ID?
+                        ","['A.Equi-join', 'B. Natural join', 'C. Outer join', 'D. Cartesian join']","
+                    Answer»
+                    A. Equi-join
+                "
+"
+                            A UNION query is which of the following?
+                        ","['A.Combines the output from no more than two queries and must include the same number of columns', 'B. Combines the output from no more than two queries and does not include the same number of columns', 'C. Combines the output from multiple queries and must include the same number of columns', 'D. Combines the output from multiple queries and does not include the same number of columns']","
+                    Answer»
+                    C. Combines the output from multiple queries and must include the same number of columns
+                "
+"
+                            Which of the following statements is true concerning subqueries?
+                        ","['A.Involves the use of an inner and outer query', 'B. Cannot return the same result as a query that is not a subquery', 'C. Does not start with the word SELECT', 'D. All of the mentioned']","
+                    Answer»
+                    A. Involves the use of an inner and outer query
+                "
+"
+                            Which of the following is a correlated subquery?
+                        ","['A.Uses the result of an inner query to determine the processing of an outer query', 'B. Uses the result of an outer query to determine the processing of an inner query', 'C. Uses the result of an inner query to determine the processing of an inner query', 'D. Uses the result of an outer query to determine the processing of an outer query']","
+                    Answer»
+                    A. Uses the result of an inner query to determine the processing of an outer query
+                "
+"
+                            The following SQL is which type of join: SELECT CUSTOMER_T. CUSTOMER_ID,
+ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM CUSTOMER_T,ORDER_T?
+                        ","['A.Equi-join', 'B. Natural join', 'C. Outer join', 'D. Cartesian join']","
+                    Answer»
+                    D. Cartesian join
+                "
+"
+                            Which is not a type of join in T-SQL?
+                        ","['A.Equi-join', 'B. Natural join', 'C. Outer join', 'D. Cartesian join']","
+                    Answer»
+                    B. Natural join
+                "
+"
+                            What is a view?
+                        ","['A.A view is a special stored procedure executed when certain event occurs', 'B. A view is a virtual table which results of executing a pre-compiled query', 'C. A view is a database diagram', 'D. None of the Mentioned']","
+                    Answer»
+                    B. A view is a virtual table which results of executing a pre-compiled query
+                "
+"
+                            Which of the following is not a limitation of view?
+                        ","['A.ORDER BY Does Not Work', 'B. Index Created on View Used Often', 'C. Cross Database Queries Not Allowed in Indexed View', 'D. Adding Column is Expensive by Joining Table Outside View']","
+                    Answer»
+                    B. Index Created on View Used Often
+                "
+"
+                            SQL Server has mainly how many types of views?
+                        ","['A.Views could be looked as an additional layer on the table which enables us to protect intricate or sensitive data based upon our needs', 'B. Views are virtual tables that are compiled at run time', 'C. Creating views can improve query response time', 'D. All of the Mentioned']","
+                    Answer»
+                    D. All of the Mentioned
+                "
+"
+                            Dynamic Management View is a type of ___________
+                        ","['A.one', 'B. two', 'C. three', 'D. four']","
+                    Answer»
+                    B. two
+                "
+"
+                            Syntax for creating views is __________
+                        ","['A.System Defined Views', 'B. User Defined View', 'C. Simple View', 'D. Complex View']","
+                    Answer»
+                    A. System Defined Views
+                "
+"
+                            You can delete a view with ___________ command.
+                        ","['A.CREATE VIEW AS SELECT', 'B. CREATE VIEW AS UPDATE', 'C. DROP VIEW AS SELECT', 'D. CREATE VIEW AS UPDATE']","
+                    Answer»
+                    A. CREATE VIEW AS SELECT
+                "
+"
+                            What is SCHEMABINDING a VIEW?
+                        ","['A.DROP VIEW', 'B. DELETE VIEW', 'C. REMOVE VIEW', 'D. TRUNCATE VIEW']","
+                    Answer»
+                    A. DROP VIEW
+                "
+"
+                            Which of the following is not a SQL Server INFORMATION_SCHEMA view?
+                        ","['A.Schema binding binds your views to the dependent physical columns of the accessed tables specified in the contents of the view', 'B. These are stored only in the Master database', 'C. These types of view are defined by users on a specified schema', 'D. These are used to show database self describing information']","
+                    Answer»
+                    B. These are stored only in the Master database
+                "
+"
+                            ___________ is stored only in the Master database.
+                        ","['A.INFORMATION_SCHEMA.CONSTRAINT_TABLE_USAGE', 'B. INFORMATION_SCHEMA.DOMAIN_CONSTRAINTS', 'C. INFORMATION_SCHEMA.KEY_COLUMN_USAGE', 'D. sys.dm_exec_connections']","
+                    Answer»
+                    D. sys.dm_exec_connections
+                "
+"
+                            In the __________ normal form, a composite attribute is converted to individual attributes.
+                        ","['A.Database-scoped Dynamic Management View', 'B. Complex View', 'C. Catalog View', 'D. None of the mentioned']","
+                    Answer»
+                    D. None of the mentioned
+                "
+"
+                            Tables in second normal form (2NF):
+                        ","['A.First', 'B. Second', 'C. Third', 'D. Fourth']","
+                    Answer»
+                    A. First
+                "
+"
+                            Which-one ofthe following statements about normal forms is FALSE?
+                        ","['A.Eliminate all hidden dependencies', 'B. Eliminate the possibility of a insertion anomalies', 'C. Have a composite key', 'D. Have all non key fields depend on the whole primary key']","
+                    Answer»
+                    A. Eliminate all hidden dependencies
+                "
+"
+                            Functional Dependencies are the types of constraints that are based on______
+                        ","['A.BCNF is stricter than 3 NF', 'B. Lossless, dependency -preserving decomposition into 3 NF is always possible', 'C. Loss less, dependency – preserving decomposition into BCNF is always possible', 'D. Any relation with two attributes is BCNF']","
+                    Answer»
+                    C. Loss less, dependency – preserving decomposition into BCNF is always possible
+                "
+"
+                            Which is a bottom-up approach to database design that design by examining the relationship
+between attributes:
+                        ","['A.Key', 'B. Key revisited', 'C. Superset key', 'D. None of the mentioned']","
+                    Answer»
+                    A. Key
+                "
+"
+                            Which forms simplifies and ensures that there are minimal data aggregates and repetitive
+groups:
+                        ","['A.Functional dependency', 'B. Database modeling', 'C. Normalization', 'D. Decomposition']","
+                    Answer»
+                    C. Normalization
+                "
+"
+                            Which forms has a relation that possesses data about an individual entity:
+                        ","['A.1NF', 'B. 2NF', 'C. 3NF', 'D. All of the mentioned']","
+                    Answer»
+                    C. 3NF
+                "
+"
+                            Which forms are based on the concept of functional dependency:
+                        ","['A.2NF', 'B. 3NF', 'C. 4NF', 'D. 5NF']","
+                    Answer»
+                    C. 4NF
+                "
+"
+                            Empdt1(empcode, name, street, city, state, pincode).
+For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, empdt1 is a relation in
+                        ","['A.1NF', 'B. 2NF', 'C. 3NF', 'D. 4NF']","
+                    Answer»
+                    C. 3NF
+                "
+"
+                            We can use the following three rules to find logically implied functional dependencies.
+This collection of rules is called
+                        ","['A.1 NF only', 'B. 2 NF and hence also in 1 NF', 'C. 3NF and hence also in 2NF and 1NF', 'D. BCNF and hence also in 3NF, 2NF and 1NF']","
+                    Answer»
+                    B. 2 NF and hence also in 1 NF
+                "
+"
+                            Which of the following is not Armstrong’s Axiom?
+                        ","['A.Axioms', 'B. Armstrong’s axioms', 'C. Armstrong', 'D. Closure']","
+                    Answer»
+                    B. Armstrong’s axioms
+                "
+"
+                            The relation employee(ID,name,street,Credit,street,city,salary) is decomposed into
+employee1 (ID, name)
+employee2 (name, street, city, salary) This type of decomposition is called
+                        ","['A.Reflexivity rule', 'B. Transitivity rule', 'C. Pseudotransitivity rule', 'D. Augmentation rule']","
+                    Answer»
+                    C. Pseudotransitivity rule
+                "
+"
+                            Inst_dept (ID, name, salary, dept name, building, budget) is decomposed into
+instructor (ID, name, dept name, salary)   department (dept name, building, budget)  This comes under
+                        ","['A.Lossless decomposition', 'B. Lossless-join decomposition', 'C. All of the mentioned', 'D. None of the mentioned']","
+                    Answer»
+                    D. None of the mentioned
+                "
+"
+                            There are two functional dependencies with the same set of attributes on the left side of the arrow:
+A->BC A->B 
+This can be combined as
+                        ","['A.Lossy-join decomposition', 'B. Lossy decomposition', 'C. Lossless-join decomposition', 'D. Both Lossy and Lossy-join decomposition']","
+                    Answer»
+                    D. Both Lossy and Lossy-join decomposition
+                "
+"
+                            Consider a relation R(A,B,C,D,E) with the following functional dependencies:
+ABC -> DE and
+D -> AB  The number of superkeys of R is:
+                        ","['A.A->BC', 'B. A->B', 'C. B->C', 'D. None of the mentioned']","
+                    Answer»
+                    A. A->BC
+                "
+"
+                            Which, if any, of the two queries above will correctly (in SQL2) get the desired set of
+employee ID’s?
+                        ","['A.2', 'B. 7', 'C. 10', 'D. 12']","
+                    Answer»
+                    C. 10
+                "
+"
+                            Suppose now that R(A,B:) and S(A,B:) are two relations with r and s tuples, respectively
+(again, not necessarily distinct). If m is the number of (not necessarily distinct) tuples in the
+result of the SQL query: R intersect S; Then which of the following is the most restrictive, correct condition on the value of m?
+                        ","['A.Both I and II', 'B. I only', 'C. II only', 'D. Neither I nor I']","
+                    Answer»
+                    A. Both I and II
+                "
+"
+                            Which of the following is not a key?
+                        ","['A.m = min(r,s)', 'B. 0 <= m <= r + s', 'C. min(r,s) <= m <= max(r,s)', 'D. 0 <= m <= min(r,s)']","
+                    Answer»
+                    D. 0 <= m <= min(r,s)
+                "
+"
+                            If a relation is in BCNF, then it is also in
+                        ","['A.A', 'B. E', 'C. B, C', 'D. D']","
+                    Answer»
+                    C. B, C
+                "
+"
+                            Statement 1: A tuple is a row in a relation Statement 2: Existence of multiple foreign keys in a same relation is possible
+                        ","['A.1 NF', 'B. 2 NF', 'C. 3 NF', 'D. All of the above']","
+                    Answer»
+                    D. All of the above
+                "
+"
+                            The____condition allows a general predicate over the relations being joined.
+                        ","['A.Output specified attributes from all rows of the input relation and remove duplicate tuples from the output', 'B. Outputs pairs of rows from the two input relations that have the same value on all attributes that have the same name', 'C. Output all pairs of rows from the two input relations (regardless of whether or not they have the same values on common attributes)', 'D. Return rows of the input relation that satisfy the predicate']","
+                    Answer»
+                    A. Output specified attributes from all rows of the input relation and remove duplicate tuples from the output
+                "
+"
+                            Which of the join operations do not preserve non matched tuples?
+                        ","['A.Both the statements are true', 'B. Statement 1 is correct but Statement 2 is false', 'C. Statement 1 is false but Statement 2 is correct', 'D. Both the statements are false']","
+                    Answer»
+                    A. Both the statements are true
+                "
